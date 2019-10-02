@@ -1,0 +1,749 @@
+@prefix : <http://cor.esipfed.org/ont/~rduerr/sfo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://cor.esipfed.org/ont/~rduerr/sfo> .
+
+<http://cor.esipfed.org/ont/~rduerr/sfo> rdf:type owl:Ontology ;
+                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Ruth Duerr (ruth dot duerr3 gmailcom)"@en ;
+                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Ontology Producer" ;
+                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Software Functions Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/sfo"@en ;
+                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> "yes" ;
+                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> "text/turtle" ;
+                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> "None" ;
+                                          <http://omv.ontoware.org/2005/05/ontology#hasCreator> "Ruth Duerr" ;
+                                          <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4808-4736> ;
+                                          <http://purl.org/dc/elements/1.1/description> "This ontology defines a heirarchy of software functions based on the work of the NSF-funded EarthCube Resource Registry working group.  The functions are generally organized by their role in the research process."@en ;
+                                          <http://purl.org/dc/elements/1.1/title> "Software Functions Ontology"@en ;
+                                          <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:32:13Z" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> rdf:type owl:AnnotationProperty .
+
+
+###  http://omv.ontoware.org/2005/05/ontology#hasCreator
+<http://omv.ontoware.org/2005/05/ontology#hasCreator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000001
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000001> rdf:type owl:Class ;
+                                                 <http://purl.org/dc/elements/1.1/description> "The function that software performs during the research process."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T21:39:57Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Example: The concept “Research Planning” may be used to describe the function of sofware used in generating a plan for a research project."@en ;
+                                                 rdfs:label "research software function"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000002
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000002> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "The function of being used in generating a scientific and logistic plan for executing a research project."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:03:53Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Data management planning tools; concept mapping tools; project management tools"@en ;
+                                                 rdfs:label "research planning"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000003
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000003> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that involve human-machine communication necessary for the operation of some component of a research project."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:12:46Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: list-serve software; wiki software; OAuth"@en ;
+                                                 rdfs:label "user interaction"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000004
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions enabling incorporation of new data into an information system."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:16:29Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Data might originate from instruments or from other information systems."@en ,
+                                                              "Examples: satellite downlink software; streaming data handlers (stream gauge); strike and dip app for mobile device; strabo"@en ;
+                                                 rdfs:label "data acquisition"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000005
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000005> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that enable an agent to locate and access (acquire for use) information resources"@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:18:13Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: ElasticSearch; web map server (GeoServer); OpenSearch; Thredds; Apache Nutch, Sparkler"@en ;
+                                                 rdfs:label "data discovery and access"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000006
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000006> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that enable interaction with data to determine usability, suitability for specific use,  for hypothesis generation, or evaluation of patterns suggesting the need for further analysis."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:19:45Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: NLP annotation; ArcGIS; RapidMiner;"@en ;
+                                                 rdfs:label "data exploration"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000007
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000007> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to refine data for use in data analysis or other purposes."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:22:34Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: MODIS cal/Val; Excel (save as); Google Refine"@en ;
+                                                 rdfs:label "data preparation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000008
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000008> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to produce a higher level defined data product"@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:26:27Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: MODIS L2 processing; geophysical forward modeling and inversion (e.g., SpecFEM3D, ModEM, etc); hydrological modeling (e.g., TopoFlow, ModFlow, etc); weather modeling and data assimilation (WRF)"@en ;
+                                                 rdfs:label "data processing and modeling"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000009
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000009> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to orchestrate a series of tools in an automated fashion to perform some reproducible task."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:27:37Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Kepler, Taverna, VisTrails"@en ;
+                                                 rdfs:label "workflow management"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000010
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000010> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to enable hypothesis testing or to gain insights from data."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:28:33Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Topic modeling; Named entity recognition; ArcMap; various R statistical or image processing packages;"@en ;
+                                                 rdfs:label "data analysis"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000011
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000011> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to visually display data."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:29:52Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: ASINA (https://nsidc.org/arcticseaicenews/); Google Earth; ParaView"@en ;
+                                                 rdfs:label "visualization"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000012
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000012> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that describe key aspects of a resource or its usage, or of new insights from data"@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:32:42Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Google Analytics"@en ;
+                                                 rdfs:label "reporting"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000013
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000013> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that maintain and conserve data in a usable and useful condition for the long term"@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:34:13Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Data Conservancy; Fedora, DataOne; DataVerse"@en ;
+                                                 rdfs:label "data curation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000014
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000014> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that support aspects of software development."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:35:36Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: GitHub, Subversion, Eclipse,"@en ;
+                                                 rdfs:label "programmer assistance"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000015
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000015> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow users to visually map relevant concepts, processes, and other entities relevant to planning their research."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:40:31Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: mindmapping, concept mapping, brainstorming software"@en ;
+                                                 rdfs:label "mental modeling"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000016
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000016> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Examples: Microsoft Project, GanttPro, Redmine, Airtable, Trello"@en ,
+                                                                                               "Functions that allow users to develop and manage implementation of a project plan."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:45:29Z"^^xsd:dateTime ;
+                                                 rdfs:label "project planning"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000017
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000017> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that enable planning for the logistics needed to support research in the field."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:51:18Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Easyship, LogiMap, DELMIA Quintiq Logistics Planning"@en ;
+                                                 rdfs:label "logistics planning"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000018
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000018> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:58:18Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: DMPtool"@en ,
+                                                              "Functions to enable the development and management of data management plans."@en ;
+                                                 rdfs:label "data management planning"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000019
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000019> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that authenticate and/or control access to specific capabilities."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:01:41Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: OAuth, OpenID"@en ;
+                                                 rdfs:label "authentication and access control"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000020
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000020> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow a user to interact with a system."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:04:32Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: browsers, flyover country app"@en ;
+                                                 rdfs:label "user interface"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000021
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000021> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow users to form communities across space and time and to interact with one another remotely."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:09:25Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: AGU Connect, Facebook, MediaWiki, DokuWiki, Google groups, listservs, zoom"@en ;
+                                                 rdfs:label "community support & social networking"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000022
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000022> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow notification of events, or other happenings."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:13:51Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Appwoodoo, OneSignal, Notifu, PyOxidizer"@en ;
+                                                 rdfs:label "notification"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000023
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000023> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000004> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to control the operation of a scientific instrument."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:20:56Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: MATLAB Instrument Control Box, LabView, Systems Test and Operations Language"@en ;
+                                                 rdfs:label "instrument control"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000024
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000024> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000004> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to calibrate an instrument."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:24:19Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: MODIS cal/val, EasyCal, Calibration Studio"@en ;
+                                                 rdfs:label "instrument calibration"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000025
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000025> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000004> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to handle data that is streaming in real-time."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:28:53Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: CHORDS"@en ;
+                                                 rdfs:label "streaming data handling"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000026
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000026> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000004> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to ingest data into a data system."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:30:08Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Apache Kafka, Datatorrent, Apache Samza"@en ;
+                                                 rdfs:label "data ingest"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000027
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000027> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "The function that enables an agent to query a system that retrieves a list of data that match the agent's search criteria and which might be suitable for their purpose."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T22:40:18Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: NSIDC Scientific Data Search, data.gov, USGS ScienceBase"@en ;
+                                                 rdfs:label "data query"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000028
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000028> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that enable an agent to access or order data."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T22:53:52Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: NOAA's HadISST Sea Ice Component, 1°, Global, Monthly, 1870-present Data Subset Service, NSIDC Near-Real-Time SSM/I-SSMIS EASE-Grid Daily Global Ice Concentration and Snow Extent, Version 5 subscription service"@en ;
+                                                 rdfs:label "data access/order"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000029
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000029> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "A function that automatically and systematically searches some portion of the World Wide Web for items that meet agent provided criteria (e.g., specific keywords, certain file types)."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T23:15:57Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Apache Nutch, Octoparse, Dexi.io"@en ;
+                                                 rdfs:label "web crawling"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000030
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000030> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "The function of extracting specified information/data from specific, targeted sites on the World Wide Web."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T23:25:01Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: EnhancedOAIServer, OAIA, WAF, arcIMS, Z39.50"@en ;
+                                                 rdfs:label "data harvesting"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000033
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000033> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000006> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "The function of systematically analyzing groups of data in order to uncover previously unknown patterns and relationships."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T23:58:41Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: RapidMiner Studio, STATISTICA, KNIME Analytics Platform"@en ;
+                                                 rdfs:label "data mining"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000034
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000034> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000006> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow users to perform initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and/or to check assumptions with the help of summary statistics and graphical representations."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T00:04:49Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: pandas, numpy, matplotlib, seaborn"@en ;
+                                                 rdfs:label "exploratory data analysis"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://cor.esipfed.org/ont/~rduerr/SFO_0000034> ;
+   owl:annotatedProperty <http://purl.org/dc/elements/1.1/description> ;
+   owl:annotatedTarget "Functions that allow users to perform initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and/or to check assumptions with the help of summary statistics and graphical representations."@en ;
+   <http://purl.org/dc/elements/1.1/creator> "Adapted from Prasad Patil, https://medium.com/@theprasadpatil"@en
+ ] .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000035
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that convert data from one format to another."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T00:20:18Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: Programs that convert movies from one format to another."@en ;
+                                                 rdfs:label "format conversion"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000036
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that prospectively ensure the quality of data yet to be acquired and to verify the data's reasonableness through the use of techniques such as flagging outlying values, etc."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T21:24:05Z"^^xsd:dateTime ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Quality Assurance and Quality Control"@en ;
+                                                 rdfs:comment "Examples: ZenQMS, SmartSolve, Qualio"@en ;
+                                                 rdfs:label "QA/QC"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000039
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000039> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow users to extract a portion of a larger data set."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T21:59:09Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: channel selection, spatial subsetting, temporal subsetting"@en ;
+                                                 rdfs:label "subsetting"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000041
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that help agents develop and/or validate the metadata and other markup needed to 1) make their data usable in the short and long term or 2) prepare it for further processing and analysis."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T22:04:15Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: AgriMetamaker, C Compliance Checker, M3Cat, Metacat, Morpho, SPASE metadata editor"@en ,
+                                                              """Functions may be manual or automated.  
+
+Functions specifically include NLP markup (e.b., syntactic structure), image markup (e.g., outline around hurricane), etc., in addition to discovery, access, use and preservation metadata."""@en ;
+                                                 rdfs:label "metadata assistance"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000042
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000042> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow users to ensure that the data being used is clean and consistent."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T22:10:36Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: OpenRefine, DataWrangler, DataCleaner"@en ;
+                                                 rdfs:label "data cleaning"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000043
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow users to anonymize, deidentify, blur or otherwise alter data to protect information about a wide variety ofethical and legal issues"@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T22:14:32Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Example tools: ARX Data Anonymization Tool, Amnesia, sdcMicro"@en ,
+                                                              """Some of the issues addressed:
+
+* location of  
+   * protected species
+   * archaeological sites
+   * specimen locations
+* personal privacy"""@en ;
+                                                 rdfs:label "data desensitization"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000044
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000044> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that generate geometrical shapes that cover a physical domain."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T22:39:30Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Examples: LaGriT, GridTool, Gridgen, NWGrid"@en ;
+                                                 rdfs:label "grid or mesh generation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000045
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000045> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that generate test data."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T22:50:51Z"^^xsd:dateTime ;
+                                                 rdfs:label "test data generation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000046
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000046> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions used to validate the output products of processing or modeling softare."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T22:57:25Z"^^xsd:dateTime ;
+                                                 rdfs:label "output validation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000047
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000047> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow the outputs of one model to feed into another model."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T22:59:03Z"^^xsd:dateTime ;
+                                                 rdfs:label "model coupling"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000048
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000048> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that convert data into a useable and desired form."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T23:02:20Z"^^xsd:dateTime ;
+                                                 rdfs:label "data processing"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000049
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000049> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow users to computationally model physical processes."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T23:07:15Z"^^xsd:dateTime ;
+                                                 rdfs:label "computational model"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000050
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000050> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow users to adjust model parameters and forcings so that model outputs match observed values."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T23:09:18Z"^^xsd:dateTime ;
+                                                 rdfs:label "model calibration"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000051
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000051> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that optimally combine theory, often in the form of models, with available data."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T17:23:09Z"^^xsd:dateTime ;
+                                                 rdfs:label "inversion/assimilation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000053
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000053> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that combine data from different sources into a single, unified view."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T17:29:33Z"^^xsd:dateTime ;
+                                                 rdfs:label "data integration"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000054
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000054> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that use statistical methods to analyze time series data and extract meaningful statistics and characteristics about the data."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T17:33:53Z"^^xsd:dateTime ;
+                                                 rdfs:label "time series analysis"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000055
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000055> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Funcions that use formal techniques to study entities using their topological, geometric, or geographic properties"@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T17:36:00Z"^^xsd:dateTime ;
+                                                 rdfs:label "spatial analysis"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000056
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000056> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions for collecting, exploring and presenting large amounts of data to discover underlying patterns and trends."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:42:18Z"^^xsd:dateTime ;
+                                                 rdfs:label "statistical analysis"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000057
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000057> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow quantitative analyses and/or algorithms applied to digital image data."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:44:03Z"^^xsd:dateTime ;
+                                                 rdfs:label "image processing"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000058
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000058> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that parse texts in order to extract machine-readable facts from them, thereby creating structured data out of free text content."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:45:39Z"^^xsd:dateTime ;
+                                                 rdfs:label "text analysis"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000059
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000059> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that facilitate analysis of objects in motion."@en ,
+                                                                                               "Structured techniques used to mathematically analyze a network of interconnected components."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:49:52Z"^^xsd:dateTime ;
+                                                 rdfs:label "graph or network analysis"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000060
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000060> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions (i.e., algorithms and statistical models) used to perform a specific task without using explicit instructions, relying on patterns and inference observed in input test data instead."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:53:32Z"^^xsd:dateTime ;
+                                                 rdfs:label "machine learning"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000061
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000061> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that help computers understand, interpret and manipulate human language."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:56:45Z"^^xsd:dateTime ;
+                                                 rdfs:label "natural language processing"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000062
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000062> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000011> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that present data and information in a form suitable for visual perception and decision-making by a person."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:11:40Z"^^xsd:dateTime ;
+                                                 rdfs:label "display"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000063
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000063> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000011> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions used to manipulate images or data so they appear as moving images."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:13:11Z"^^xsd:dateTime ;
+                                                 rdfs:label "animation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000064
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000064> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000011> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions used to generate two-dimensional or three-dimensional images from a model."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:16:20Z"^^xsd:dateTime ;
+                                                 rdfs:label "rendering"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000065
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000065> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000012> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that automate or partly automate the generation of documentation."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:19:48Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Example: Live OWL Documentation Environment (LODE)"@en ;
+                                                 rdfs:label "document generation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000066
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000066> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000012> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:25:10Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Functions that transforms report data and layout information into a specific format."@en ;
+                                                 rdfs:label "report rendering"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000067
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000067> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000012> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to collect and submit data so that accurate analyses of the facts on the ground can be performed."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:27:48Z"^^xsd:dateTime ;
+                                                 rdfs:label "data reporting"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000068
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000068> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000012> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that allow the usage of a resource to be monitored."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:29:02Z"^^xsd:dateTime ;
+                                                 rdfs:label "usage monitoring"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000071
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000071> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000014> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions that track changes made to a digital asset over time"@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:48:07Z"^^xsd:dateTime ;
+                                                 rdfs:label "version control"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000072
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000072> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000014> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions to improve the efficiency and quality of code."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:49:47Z"^^xsd:dateTime ;
+                                                 rdfs:label "code optimization"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/SFO_0000073
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000073> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000014> ;
+                                                 <http://purl.org/dc/elements/1.1/description> "Functions for evaluating and ascertaining the completeness and quality of code, determining if it complies with its requirements, performs functions for which it is intended and meets the organization's goals and user needs."@en ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:51:20Z"^^xsd:dateTime ;
+                                                 rdfs:label "code validation and testing"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
+                                                       <http://purl.org/dc/elements/1.1/description> "Functions that transform data."@en ;
+                                                       <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                       <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-01T23:07:45Z"^^xsd:dateTime ;
+                                                       rdfs:comment "Examples: spatial transformation, format conversion, interpolation, regridding, etc."@en ;
+                                                       rdfs:label "data transformation"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> ;
+                                                       <http://purl.org/dc/elements/1.1/description> "Functions to create, update and remove user accounts and their rights and capabilities within a system."@en ;
+                                                       <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                       <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-01T23:21:44Z"^^xsd:dateTime ;
+                                                       rdfs:label "user management"@en .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

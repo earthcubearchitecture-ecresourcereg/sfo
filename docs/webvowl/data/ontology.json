@@ -1,0 +1,2827 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://cor.esipfed.org/ont/~rduerr/sfo", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/~rduerr", "http://www.w3.org/2001/XMLSchema" ],
+    "title" : {
+      "en" : "Software Functions Ontology"
+    },
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/sfo",
+    "author" : [ "https://orcid.org/0000-0003-4808-4736" ],
+    "description" : {
+      "en" : "This ontology defines a heirarchy of software functions based on the work of the NSF-funded EarthCube Resource Registry working group.  The functions are generally organized by their role in the research process."
+    },
+    "other" : {
+      "hasCreator" : [ {
+        "identifier" : "hasCreator",
+        "language" : "undefined",
+        "value" : "Ruth Duerr",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ],
+      "origVocManager" : [ {
+        "identifier" : "origVocManager",
+        "language" : "undefined",
+        "value" : "None",
+        "type" : "label"
+      } ],
+      "contact" : [ {
+        "identifier" : "contact",
+        "language" : "en",
+        "value" : "Ruth Duerr (ruth dot duerr3 gmailcom)",
+        "type" : "label"
+      } ],
+      "creditCitation" : [ {
+        "identifier" : "creditCitation",
+        "language" : "en",
+        "value" : "Duerr, R., 2019, \"Software Functions Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/sfo",
+        "type" : "label"
+      } ],
+      "hasResourceType" : [ {
+        "identifier" : "hasResourceType",
+        "language" : "undefined",
+        "value" : "text/turtle",
+        "type" : "label"
+      } ],
+      "contactRole" : [ {
+        "identifier" : "contactRole",
+        "language" : "undefined",
+        "value" : "Ontology Producer",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:32:13Z",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Software Functions Ontology",
+        "type" : "label"
+      } ],
+      "creditRequired" : [ {
+        "identifier" : "creditRequired",
+        "language" : "undefined",
+        "value" : "yes",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000062",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that present data and information in a form suitable for visual perception and decision-making by a person."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:11:40Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000062",
+      "en" : "display"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000061",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that help computers understand, interpret and manipulate human language."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T18:56:45Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000061",
+      "en" : "natural language processing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000064",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions used to generate two-dimensional or three-dimensional images from a model."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:16:20Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000064",
+      "en" : "rendering"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000063",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions used to manipulate images or data so they appear as moving images."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:13:11Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000063",
+      "en" : "animation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000060",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions (i.e., algorithms and statistical models) used to perform a specific task without using explicit instructions, relying on patterns and inference observed in input test data instead."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T18:53:32Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000060",
+      "en" : "machine learning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000066",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:25:10Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000066",
+      "en" : "report rendering"
+    },
+    "comment" : {
+      "en" : "Functions that transforms report data and layout information into a specific format."
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000065",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that automate or partly automate the generation of documentation."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:19:48Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000065",
+      "en" : "document generation"
+    },
+    "comment" : {
+      "en" : "Example: Live OWL Documentation Environment (LODE)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000068",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow the usage of a resource to be monitored."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:29:02Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000068",
+      "en" : "usage monitoring"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000067",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to collect and submit data so that accurate analyses of the facts on the ground can be performed."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:27:48Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000067",
+      "en" : "data reporting"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000051",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that optimally combine theory, often in the form of models, with available data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T17:23:09Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000051",
+      "en" : "inversion/assimilation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000050",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to adjust model parameters and forcings so that model outputs match observed values."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-20T23:09:18Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000050",
+      "en" : "model calibration"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000053",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that combine data from different sources into a single, unified view."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T17:29:33Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000053",
+      "en" : "data integration"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000059",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Structured techniques used to mathematically analyze a network of interconnected components."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T18:49:52Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000059",
+      "en" : "graph or network analysis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000058",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that parse texts in order to extract machine-readable facts from them, thereby creating structured data out of free text content."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T18:45:39Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000058",
+      "en" : "text analysis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000055",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Funcions that use formal techniques to study entities using their topological, geometric, or geographic properties"
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T17:36:00Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000055",
+      "en" : "spatial analysis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000054",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that use statistical methods to analyze time series data and extract meaningful statistics and characteristics about the data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T17:33:53Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000054",
+      "en" : "time series analysis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000057",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow quantitative analyses and/or algorithms applied to digital image data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T18:44:03Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000057",
+      "en" : "image processing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000056",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions for collecting, exploring and presenting large amounts of data to discover underlying patterns and trends."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T18:42:18Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000056",
+      "en" : "statistical analysis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000042",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to ensure that the data being used is clean and consistent."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-19T22:10:36Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000042",
+      "en" : "data cleaning"
+    },
+    "comment" : {
+      "en" : "Examples: OpenRefine, DataWrangler, DataCleaner"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000041",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that help agents develop and/or validate the metadata and other markup needed to 1) make their data usable in the short and long term or 2) prepare it for further processing and analysis."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-19T22:04:15Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000041",
+      "en" : "metadata assistance"
+    },
+    "comment" : {
+      "en" : "Functions may be manual or automated.  \n\nFunctions specifically include NLP markup (e.b., syntactic structure), image markup (e.g., outline around hurricane), etc., in addition to discovery, access, use and preservation metadata."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000048",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that convert data into a useable and desired form."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-20T23:02:20Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000048",
+      "en" : "data processing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000047",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow the outputs of one model to feed into another model."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-20T22:59:03Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000047",
+      "en" : "model coupling"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000049",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to computationally model physical processes."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-20T23:07:15Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000049",
+      "en" : "computational model"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000044",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that generate geometrical shapes that cover a physical domain."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-20T22:39:30Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000044",
+      "en" : "grid or mesh generation"
+    },
+    "comment" : {
+      "en" : "Examples: LaGriT, GridTool, Gridgen, NWGrid"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000043",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to anonymize, deidentify, blur or otherwise alter data to protect information about a wide variety ofethical and legal issues"
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-19T22:14:32Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000043",
+      "en" : "data desensitization"
+    },
+    "comment" : {
+      "en" : "Example tools: ARX Data Anonymization Tool, Amnesia, sdcMicro"
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000046",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions used to validate the output products of processing or modeling softare."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-20T22:57:25Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000046",
+      "en" : "output validation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000045",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that generate test data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-20T22:50:51Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000045",
+      "en" : "test data generation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000030",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "The function of extracting specified information/data from specific, targeted sites on the World Wide Web."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-18T23:25:01Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000030",
+      "en" : "data harvesting"
+    },
+    "comment" : {
+      "en" : "Examples: EnhancedOAIServer, OAIA, WAF, arcIMS, Z39.50"
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000036",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that prospectively ensure the quality of data yet to be acquired and to verify the data's reasonableness through the use of techniques such as flagging outlying values, etc."
+    },
+    "annotations" : {
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "en",
+        "value" : "Quality Assurance and Quality Control",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-19T21:24:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000036",
+      "en" : "QA/QC"
+    },
+    "comment" : {
+      "en" : "Examples: ZenQMS, SmartSolve, Qualio"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000039",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to extract a portion of a larger data set."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-19T21:59:09Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000039",
+      "en" : "subsetting"
+    },
+    "comment" : {
+      "en" : "Examples: channel selection, spatial subsetting, temporal subsetting"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000033",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "The function of systematically analyzing groups of data in order to uncover previously unknown patterns and relationships."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-18T23:58:41Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000033",
+      "en" : "data mining"
+    },
+    "comment" : {
+      "en" : "Examples: RapidMiner Studio, STATISTICA, KNIME Analytics Platform"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000035",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that convert data from one format to another."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-19T00:20:18Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000035",
+      "en" : "format conversion"
+    },
+    "comment" : {
+      "en" : "Examples: Programs that convert movies from one format to another."
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000034",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to perform initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and/or to check assumptions with the help of summary statistics and graphical representations."
+    },
+    "annotations" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Adapted from Prasad Patil, https://medium.com/@theprasadpatil",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-19T00:04:49Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000034",
+      "en" : "exploratory data analysis"
+    },
+    "comment" : {
+      "en" : "Examples: pandas, numpy, matplotlib, seaborn"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000029",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "A function that automatically and systematically searches some portion of the World Wide Web for items that meet agent provided criteria (e.g., specific keywords, certain file types)."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-18T23:15:57Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000029",
+      "en" : "web crawling"
+    },
+    "comment" : {
+      "en" : "Examples: Apache Nutch, Octoparse, Dexi.io"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000020",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow a user to interact with a system."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:04:32Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000020",
+      "en" : "user interface"
+    },
+    "comment" : {
+      "en" : "Examples: browsers, flyover country app"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000026",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to ingest data into a data system."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:30:08Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000026",
+      "en" : "data ingest"
+    },
+    "comment" : {
+      "en" : "Examples: Apache Kafka, Datatorrent, Apache Samza"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000025",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to handle data that is streaming in real-time."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:28:53Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000025",
+      "en" : "streaming data handling"
+    },
+    "comment" : {
+      "en" : "Examples: CHORDS"
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000028",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable an agent to access or order data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-18T22:53:52Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000028",
+      "en" : "data access/order"
+    },
+    "comment" : {
+      "en" : "Examples: NOAA's HadISST Sea Ice Component, 1°, Global, Monthly, 1870-present Data Subset Service, NSIDC Near-Real-Time SSM/I-SSMIS EASE-Grid Daily Global Ice Concentration and Snow Extent, Version 5 subscription service"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000027",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "The function that enables an agent to query a system that retrieves a list of data that match the agent's search criteria and which might be suitable for their purpose."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-18T22:40:18Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000027",
+      "en" : "data query"
+    },
+    "comment" : {
+      "en" : "Examples: NSIDC Scientific Data Search, data.gov, USGS ScienceBase"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000022",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow notification of events, or other happenings."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:13:51Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000022",
+      "en" : "notification"
+    },
+    "comment" : {
+      "en" : "Examples: Appwoodoo, OneSignal, Notifu, PyOxidizer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000021",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to form communities across space and time and to interact with one another remotely."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:09:25Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000021",
+      "en" : "community support & social networking"
+    },
+    "comment" : {
+      "en" : "Examples: AGU Connect, Facebook, MediaWiki, DokuWiki, Google groups, listservs, zoom"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000024",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to calibrate an instrument."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:24:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000024",
+      "en" : "instrument calibration"
+    },
+    "comment" : {
+      "en" : "Examples: MODIS cal/val, EasyCal, Calibration Studio"
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000023",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to control the operation of a scientific instrument."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:20:56Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000023",
+      "en" : "instrument control"
+    },
+    "comment" : {
+      "en" : "Examples: MATLAB Instrument Control Box, LabView, Systems Test and Operations Language"
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000019",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that authenticate and/or control access to specific capabilities."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T23:01:41Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000019",
+      "en" : "authentication and access control"
+    },
+    "comment" : {
+      "en" : "Examples: OAuth, OpenID"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000018",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:58:18Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000018",
+      "en" : "data management planning"
+    },
+    "comment" : {
+      "en" : "Examples: DMPtool"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000015",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to visually map relevant concepts, processes, and other entities relevant to planning their research."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:40:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000015",
+      "en" : "mental modeling"
+    },
+    "comment" : {
+      "en" : "Examples: mindmapping, concept mapping, brainstorming software"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000014",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that support aspects of software development."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:35:36Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000014",
+      "en" : "programmer assistance"
+    },
+    "subClasses" : [ "113", "114", "115" ],
+    "comment" : {
+      "en" : "Examples: GitHub, Subversion, Eclipse,"
+    },
+    "attributes" : [ "external" ],
+    "id" : "112",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000017",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable planning for the logistics needed to support research in the field."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:51:18Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000017",
+      "en" : "logistics planning"
+    },
+    "comment" : {
+      "en" : "Examples: Easyship, LogiMap, DELMIA Quintiq Logistics Planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000016",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that allow users to develop and manage implementation of a project plan."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:45:29Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000016",
+      "en" : "project planning"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000011",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to visually display data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:29:52Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000011",
+      "en" : "visualization"
+    },
+    "subClasses" : [ "0", "4", "8" ],
+    "comment" : {
+      "en" : "Examples: ASINA (https://nsidc.org/arcticseaicenews/); Google Earth; ParaView"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to enable hypothesis testing or to gain insights from data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:28:33Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000010",
+      "en" : "data analysis"
+    },
+    "subClasses" : [ "2", "9", "38", "39", "40", "41", "42", "43" ],
+    "comment" : {
+      "en" : "Examples: Topic modeling; Named entity recognition; ArcMap; various R statistical or image processing packages;"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000013",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that maintain and conserve data in a usable and useful condition for the long term"
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:34:13Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000013",
+      "en" : "data curation"
+    },
+    "comment" : {
+      "en" : "Examples: Data Conservancy; Fedora, DataOne; DataVerse"
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000012",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that describe key aspects of a resource or its usage, or of new insights from data"
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:32:42Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000012",
+      "en" : "reporting"
+    },
+    "subClasses" : [ "10", "12", "13", "14" ],
+    "comment" : {
+      "en" : "Examples: Google Analytics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to produce a higher level defined data product"
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:26:27Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000008",
+      "en" : "data processing and modeling"
+    },
+    "subClasses" : [ "36", "37", "31", "29", "35", "33", "23", "20", "27" ],
+    "comment" : {
+      "en" : "Examples: MODIS L2 processing; geophysical forward modeling and inversion (e.g., SpecFEM3D, ModEM, etc); hydrological modeling (e.g., TopoFlow, ModFlow, etc); weather modeling and data assimilation (WRF)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to refine data for use in data analysis or other purposes."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:22:34Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000007",
+      "en" : "data preparation"
+    },
+    "subClasses" : [ "25", "18", "16", "6", "61", "98", "85" ],
+    "comment" : {
+      "en" : "Examples: MODIS cal/Val; Excel (save as); Google Refine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000009",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to orchestrate a series of tools in an automated fashion to perform some reproducible task."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:27:37Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000009",
+      "en" : "workflow management"
+    },
+    "comment" : {
+      "en" : "Examples: Kepler, Taverna, VisTrails"
+    },
+    "attributes" : [ "external" ],
+    "id" : "104",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000004",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions enabling incorporation of new data into an information system."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:16:29Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000004",
+      "en" : "data acquisition"
+    },
+    "subClasses" : [ "101", "92", "89", "96" ],
+    "comment" : {
+      "en" : "Data might originate from instruments or from other information systems."
+    },
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000003",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that involve human-machine communication necessary for the operation of some component of a research project."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:12:46Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000003",
+      "en" : "user interaction"
+    },
+    "subClasses" : [ "94", "87", "84", "82", "75" ],
+    "comment" : {
+      "en" : "Examples: list-serve software; wiki software; OAuth"
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000006",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable interaction with data to determine usability, suitability for specific use,  for hypothesis generation, or evaluation of patterns suggesting the need for further analysis."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:19:45Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000006",
+      "en" : "data exploration"
+    },
+    "subClasses" : [ "72", "80" ],
+    "comment" : {
+      "en" : "Examples: NLP annotation; ArcGIS; RapidMiner;"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000005",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable an agent to locate and access (acquire for use) information resources"
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:18:13Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000005",
+      "en" : "data discovery and access"
+    },
+    "subClasses" : [ "78", "66", "63", "70" ],
+    "comment" : {
+      "en" : "Examples: ElasticSearch; web map server (GeoServer); OpenSearch; Thredds; Apache Nutch, Sparkler"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/sfo",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to create, update and remove user accounts and their rights and capabilities within a system."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-01T23:21:44Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ECCRO_0000311",
+      "en" : "user management"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/sfo",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that transform data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-01T23:07:45Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ECCRO_0000310",
+      "en" : "data transformation"
+    },
+    "comment" : {
+      "en" : "Examples: spatial transformation, format conversion, interpolation, regridding, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000002",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "The function of being used in generating a scientific and logistic plan for executing a research project."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T22:03:53Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000002",
+      "en" : "research planning"
+    },
+    "subClasses" : [ "68", "55", "60", "58" ],
+    "comment" : {
+      "en" : "Examples: Data management planning tools; concept mapping tools; project management tools"
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "105" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "The function that software performs during the research process."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-17T21:39:57Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000001",
+      "en" : "research software function"
+    },
+    "subClasses" : [ "90", "76", "112", "73", "64", "1", "3", "56", "108", "11", "21", "7", "104" ],
+    "comment" : {
+      "en" : "Example: The concept “Research Planning” may be used to describe the function of sofware used in generating a plan for a research project."
+    },
+    "attributes" : [ "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000073",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions for evaluating and ascertaining the completeness and quality of code, determining if it complies with its requirements, performs functions for which it is intended and meets the organization's goals and user needs."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:51:20Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000073",
+      "en" : "code validation and testing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000072",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to improve the efficiency and quality of code."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:49:47Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000072",
+      "en" : "code optimization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "114",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000071",
+    "baseIri" : "http://cor.esipfed.org/ont/~rduerr",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that track changes made to a digital asset over time"
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-23T19:48:07Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000071",
+      "en" : "version control"
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "112" ]
+  } ],
+  "property" : [ {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "5"
+  }, {
+    "range" : "7",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "7",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "21",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "7",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "range" : "21",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "21",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "21",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "21",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "21",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "21",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "11",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "45"
+  }, {
+    "range" : "21",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "46"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "3",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "11",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "11",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "3",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "3",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "3",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "56",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "56",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "64",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "64",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "56",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "64",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "73",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "76",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "64",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "73",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "76",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "76",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "76",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "90",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "range" : "90",
+    "domain" : "92",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "91"
+  }, {
+    "range" : "76",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "93"
+  }, {
+    "range" : "90",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
+  }, {
+    "range" : "7",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "97"
+  }, {
+    "range" : "7",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "99"
+  }, {
+    "range" : "90",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "range" : "7",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "105",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "103"
+  }, {
+    "range" : "105",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "105",
+    "domain" : "108",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "range" : "105",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "105",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "105",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "105",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "116"
+  }, {
+    "range" : "105",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "117"
+  }, {
+    "range" : "105",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "118"
+  }, {
+    "range" : "105",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "119"
+  }, {
+    "range" : "105",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "120"
+  }, {
+    "range" : "105",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "121"
+  }, {
+    "range" : "105",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "112",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "1",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "3",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "3",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "3",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "130"
+  }, {
+    "range" : "112",
+    "domain" : "113",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "112",
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  } ]
+}

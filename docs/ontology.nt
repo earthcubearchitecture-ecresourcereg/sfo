@@ -1,0 +1,659 @@
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Ruth Duerr (ruth dot duerr3 gmailcom)"@en .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Ontology Producer" .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Software Functions Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/sfo"@en .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> "yes" .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> "text/turtle" .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> "None" .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://omv.ontoware.org/2005/05/ontology#hasCreator> "Ruth Duerr" .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://purl.org/dc/elements/1.1/description> "This ontology defines a heirarchy of software functions based on the work of the NSF-funded EarthCube Resource Registry working group.  The functions are generally organized by their role in the research process."@en .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://purl.org/dc/elements/1.1/title> "Software Functions Ontology"@en .
+<http://cor.esipfed.org/ont/~rduerr/sfo> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:32:13Z" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://omv.ontoware.org/2005/05/ontology#hasCreator
+<http://omv.ontoware.org/2005/05/ontology#hasCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000001
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000001> <http://purl.org/dc/elements/1.1/description> "The function that software performs during the research process."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000001> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000001> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T21:39:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000001> <http://www.w3.org/2000/01/rdf-schema#comment> "Example: The concept “Research Planning” may be used to describe the function of sofware used in generating a plan for a research project."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "research software function"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000002
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000002> <http://purl.org/dc/elements/1.1/description> "The function of being used in generating a scientific and logistic plan for executing a research project."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000002> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000002> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:03:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000002> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Data management planning tools; concept mapping tools; project management tools"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "research planning"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000003
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000003> <http://purl.org/dc/elements/1.1/description> "Functions that involve human-machine communication necessary for the operation of some component of a research project."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000003> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000003> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:12:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000003> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: list-serve software; wiki software; OAuth"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "user interaction"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000004
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> <http://purl.org/dc/elements/1.1/description> "Functions enabling incorporation of new data into an information system."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:16:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> <http://www.w3.org/2000/01/rdf-schema#comment> "Data might originate from instruments or from other information systems."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: satellite downlink software; streaming data handlers (stream gauge); strike and dip app for mobile device; strabo"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "data acquisition"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000005
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000005> <http://purl.org/dc/elements/1.1/description> "Functions that enable an agent to locate and access (acquire for use) information resources"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000005> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000005> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:18:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000005> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: ElasticSearch; web map server (GeoServer); OpenSearch; Thredds; Apache Nutch, Sparkler"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "data discovery and access"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000006
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000006> <http://purl.org/dc/elements/1.1/description> "Functions that enable interaction with data to determine usability, suitability for specific use,  for hypothesis generation, or evaluation of patterns suggesting the need for further analysis."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000006> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000006> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:19:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000006> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: NLP annotation; ArcGIS; RapidMiner;"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000006> <http://www.w3.org/2000/01/rdf-schema#label> "data exploration"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000007
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000007> <http://purl.org/dc/elements/1.1/description> "Functions to refine data for use in data analysis or other purposes."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000007> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000007> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:22:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000007> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: MODIS cal/Val; Excel (save as); Google Refine"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000007> <http://www.w3.org/2000/01/rdf-schema#label> "data preparation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000008
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000008> <http://purl.org/dc/elements/1.1/description> "Functions to produce a higher level defined data product"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000008> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000008> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:26:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000008> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: MODIS L2 processing; geophysical forward modeling and inversion (e.g., SpecFEM3D, ModEM, etc); hydrological modeling (e.g., TopoFlow, ModFlow, etc); weather modeling and data assimilation (WRF)"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000008> <http://www.w3.org/2000/01/rdf-schema#label> "data processing and modeling"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000009
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000009> <http://purl.org/dc/elements/1.1/description> "Functions to orchestrate a series of tools in an automated fashion to perform some reproducible task."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000009> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000009> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:27:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000009> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Kepler, Taverna, VisTrails"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000009> <http://www.w3.org/2000/01/rdf-schema#label> "workflow management"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000010
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000010> <http://purl.org/dc/elements/1.1/description> "Functions to enable hypothesis testing or to gain insights from data."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000010> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000010> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:28:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000010> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Topic modeling; Named entity recognition; ArcMap; various R statistical or image processing packages;"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000010> <http://www.w3.org/2000/01/rdf-schema#label> "data analysis"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000011
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000011> <http://purl.org/dc/elements/1.1/description> "Functions to visually display data."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000011> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000011> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:29:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000011> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: ASINA (https://nsidc.org/arcticseaicenews/); Google Earth; ParaView"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000011> <http://www.w3.org/2000/01/rdf-schema#label> "visualization"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000012
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000012> <http://purl.org/dc/elements/1.1/description> "Functions that describe key aspects of a resource or its usage, or of new insights from data"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000012> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000012> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:32:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000012> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Google Analytics"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000012> <http://www.w3.org/2000/01/rdf-schema#label> "reporting"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000013
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000013> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000013> <http://purl.org/dc/elements/1.1/description> "Functions that maintain and conserve data in a usable and useful condition for the long term"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000013> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000013> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:34:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000013> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Data Conservancy; Fedora, DataOne; DataVerse"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000013> <http://www.w3.org/2000/01/rdf-schema#label> "data curation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000014
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000014> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000014> <http://purl.org/dc/elements/1.1/description> "Functions that support aspects of software development."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000014> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000014> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:35:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000014> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: GitHub, Subversion, Eclipse,"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000014> <http://www.w3.org/2000/01/rdf-schema#label> "programmer assistance"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000015
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000015> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to visually map relevant concepts, processes, and other entities relevant to planning their research."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000015> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000015> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:40:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000015> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: mindmapping, concept mapping, brainstorming software"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000015> <http://www.w3.org/2000/01/rdf-schema#label> "mental modeling"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000016
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000016> <http://purl.org/dc/elements/1.1/description> "Examples: Microsoft Project, GanttPro, Redmine, Airtable, Trello"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000016> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to develop and manage implementation of a project plan."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000016> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000016> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:45:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000016> <http://www.w3.org/2000/01/rdf-schema#label> "project planning"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000017
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000017> <http://purl.org/dc/elements/1.1/description> "Functions that enable planning for the logistics needed to support research in the field."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000017> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000017> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:51:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000017> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Easyship, LogiMap, DELMIA Quintiq Logistics Planning"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000017> <http://www.w3.org/2000/01/rdf-schema#label> "logistics planning"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000018
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000018> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000018> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T22:58:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000018> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: DMPtool"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000018> <http://www.w3.org/2000/01/rdf-schema#comment> "Functions to enable the development and management of data management plans."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000018> <http://www.w3.org/2000/01/rdf-schema#label> "data management planning"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000019
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000019> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000019> <http://purl.org/dc/elements/1.1/description> "Functions that authenticate and/or control access to specific capabilities."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000019> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000019> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:01:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000019> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: OAuth, OpenID"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000019> <http://www.w3.org/2000/01/rdf-schema#label> "authentication and access control"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000020
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000020> <http://purl.org/dc/elements/1.1/description> "Functions that allow a user to interact with a system."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000020> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000020> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:04:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000020> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: browsers, flyover country app"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000020> <http://www.w3.org/2000/01/rdf-schema#label> "user interface"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000021
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000021> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000021> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to form communities across space and time and to interact with one another remotely."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000021> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000021> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:09:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000021> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: AGU Connect, Facebook, MediaWiki, DokuWiki, Google groups, listservs, zoom"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000021> <http://www.w3.org/2000/01/rdf-schema#label> "community support & social networking"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000022
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000022> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000022> <http://purl.org/dc/elements/1.1/description> "Functions that allow notification of events, or other happenings."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000022> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000022> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:13:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000022> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Appwoodoo, OneSignal, Notifu, PyOxidizer"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000022> <http://www.w3.org/2000/01/rdf-schema#label> "notification"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000023
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000004> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000023> <http://purl.org/dc/elements/1.1/description> "Functions to control the operation of a scientific instrument."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000023> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000023> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:20:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000023> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: MATLAB Instrument Control Box, LabView, Systems Test and Operations Language"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000023> <http://www.w3.org/2000/01/rdf-schema#label> "instrument control"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000024
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000024> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000004> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000024> <http://purl.org/dc/elements/1.1/description> "Functions to calibrate an instrument."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000024> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000024> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:24:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000024> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: MODIS cal/val, EasyCal, Calibration Studio"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000024> <http://www.w3.org/2000/01/rdf-schema#label> "instrument calibration"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000025
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000004> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000025> <http://purl.org/dc/elements/1.1/description> "Functions to handle data that is streaming in real-time."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000025> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000025> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:28:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000025> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: CHORDS"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000025> <http://www.w3.org/2000/01/rdf-schema#label> "streaming data handling"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000026
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000026> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000004> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000026> <http://purl.org/dc/elements/1.1/description> "Functions to ingest data into a data system."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000026> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000026> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-17T23:30:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000026> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Apache Kafka, Datatorrent, Apache Samza"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000026> <http://www.w3.org/2000/01/rdf-schema#label> "data ingest"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000027
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000027> <http://purl.org/dc/elements/1.1/description> "The function that enables an agent to query a system that retrieves a list of data that match the agent's search criteria and which might be suitable for their purpose."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000027> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000027> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T22:40:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000027> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: NSIDC Scientific Data Search, data.gov, USGS ScienceBase"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000027> <http://www.w3.org/2000/01/rdf-schema#label> "data query"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000028
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000028> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000028> <http://purl.org/dc/elements/1.1/description> "Functions that enable an agent to access or order data."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000028> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000028> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T22:53:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000028> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: NOAA's HadISST Sea Ice Component, 1°, Global, Monthly, 1870-present Data Subset Service, NSIDC Near-Real-Time SSM/I-SSMIS EASE-Grid Daily Global Ice Concentration and Snow Extent, Version 5 subscription service"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000028> <http://www.w3.org/2000/01/rdf-schema#label> "data access/order"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000029
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000029> <http://purl.org/dc/elements/1.1/description> "A function that automatically and systematically searches some portion of the World Wide Web for items that meet agent provided criteria (e.g., specific keywords, certain file types)."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000029> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000029> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T23:15:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000029> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Apache Nutch, Octoparse, Dexi.io"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000029> <http://www.w3.org/2000/01/rdf-schema#label> "web crawling"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000030
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000030> <http://purl.org/dc/elements/1.1/description> "The function of extracting specified information/data from specific, targeted sites on the World Wide Web."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000030> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000030> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T23:25:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000030> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: EnhancedOAIServer, OAIA, WAF, arcIMS, Z39.50"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000030> <http://www.w3.org/2000/01/rdf-schema#label> "data harvesting"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000033
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000033> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000006> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000033> <http://purl.org/dc/elements/1.1/description> "The function of systematically analyzing groups of data in order to uncover previously unknown patterns and relationships."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000033> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000033> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-18T23:58:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000033> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: RapidMiner Studio, STATISTICA, KNIME Analytics Platform"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000033> <http://www.w3.org/2000/01/rdf-schema#label> "data mining"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000034
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000034> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000006> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000034> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to perform initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and/or to check assumptions with the help of summary statistics and graphical representations."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000034> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000034> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T00:04:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000034> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: pandas, numpy, matplotlib, seaborn"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000034> <http://www.w3.org/2000/01/rdf-schema#label> "exploratory data analysis"@en .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedSource> <http://cor.esipfed.org/ont/~rduerr/SFO_0000034> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/description> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedTarget> "Functions that allow users to perform initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and/or to check assumptions with the help of summary statistics and graphical representations."@en .
+_:genid1 <http://purl.org/dc/elements/1.1/creator> "Adapted from Prasad Patil, https://medium.com/@theprasadpatil"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000035
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> <http://purl.org/dc/elements/1.1/description> "Functions that convert data from one format to another."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T00:20:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: Programs that convert movies from one format to another."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> <http://www.w3.org/2000/01/rdf-schema#label> "format conversion"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000036
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> <http://purl.org/dc/elements/1.1/description> "Functions that prospectively ensure the quality of data yet to be acquired and to verify the data's reasonableness through the use of techniques such as flagging outlying values, etc."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T21:24:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Quality Assurance and Quality Control"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: ZenQMS, SmartSolve, Qualio"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000036> <http://www.w3.org/2000/01/rdf-schema#label> "QA/QC"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000039
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000039> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000039> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to extract a portion of a larger data set."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000039> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000039> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T21:59:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000039> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: channel selection, spatial subsetting, temporal subsetting"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000039> <http://www.w3.org/2000/01/rdf-schema#label> "subsetting"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000041
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> <http://purl.org/dc/elements/1.1/description> "Functions that help agents develop and/or validate the metadata and other markup needed to 1) make their data usable in the short and long term or 2) prepare it for further processing and analysis."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T22:04:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: AgriMetamaker, C Compliance Checker, M3Cat, Metacat, Morpho, SPASE metadata editor"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> <http://www.w3.org/2000/01/rdf-schema#comment> "Functions may be manual or automated.  \n\nFunctions specifically include NLP markup (e.b., syntactic structure), image markup (e.g., outline around hurricane), etc., in addition to discovery, access, use and preservation metadata."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000041> <http://www.w3.org/2000/01/rdf-schema#label> "metadata assistance"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000042
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000042> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000042> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to ensure that the data being used is clean and consistent."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000042> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000042> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T22:10:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000042> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: OpenRefine, DataWrangler, DataCleaner"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000042> <http://www.w3.org/2000/01/rdf-schema#label> "data cleaning"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000043
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to anonymize, deidentify, blur or otherwise alter data to protect information about a wide variety ofethical and legal issues"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-19T22:14:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> <http://www.w3.org/2000/01/rdf-schema#comment> "Example tools: ARX Data Anonymization Tool, Amnesia, sdcMicro"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> <http://www.w3.org/2000/01/rdf-schema#comment> "Some of the issues addressed:\n\n* location of  \n   * protected species\n   * archaeological sites\n   * specimen locations\n* personal privacy"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000043> <http://www.w3.org/2000/01/rdf-schema#label> "data desensitization"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000044
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000044> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000044> <http://purl.org/dc/elements/1.1/description> "Functions that generate geometrical shapes that cover a physical domain."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000044> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000044> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T22:39:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000044> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: LaGriT, GridTool, Gridgen, NWGrid"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000044> <http://www.w3.org/2000/01/rdf-schema#label> "grid or mesh generation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000045
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000045> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000045> <http://purl.org/dc/elements/1.1/description> "Functions that generate test data."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000045> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000045> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T22:50:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000045> <http://www.w3.org/2000/01/rdf-schema#label> "test data generation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000046
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000046> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000046> <http://purl.org/dc/elements/1.1/description> "Functions used to validate the output products of processing or modeling softare."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000046> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000046> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T22:57:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000046> <http://www.w3.org/2000/01/rdf-schema#label> "output validation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000047
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000047> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000047> <http://purl.org/dc/elements/1.1/description> "Functions that allow the outputs of one model to feed into another model."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000047> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000047> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T22:59:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000047> <http://www.w3.org/2000/01/rdf-schema#label> "model coupling"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000048
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000048> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000048> <http://purl.org/dc/elements/1.1/description> "Functions that convert data into a useable and desired form."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000048> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000048> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T23:02:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000048> <http://www.w3.org/2000/01/rdf-schema#label> "data processing"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000049
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000049> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000049> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to computationally model physical processes."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000049> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000049> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T23:07:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000049> <http://www.w3.org/2000/01/rdf-schema#label> "computational model"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000050
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000050> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000050> <http://purl.org/dc/elements/1.1/description> "Functions that allow users to adjust model parameters and forcings so that model outputs match observed values."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000050> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000050> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-20T23:09:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000050> <http://www.w3.org/2000/01/rdf-schema#label> "model calibration"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000051
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000051> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000051> <http://purl.org/dc/elements/1.1/description> "Functions that optimally combine theory, often in the form of models, with available data."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000051> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000051> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T17:23:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000051> <http://www.w3.org/2000/01/rdf-schema#label> "inversion/assimilation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000053
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000053> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000008> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000053> <http://purl.org/dc/elements/1.1/description> "Functions that combine data from different sources into a single, unified view."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000053> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000053> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T17:29:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000053> <http://www.w3.org/2000/01/rdf-schema#label> "data integration"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000054
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000054> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000054> <http://purl.org/dc/elements/1.1/description> "Functions that use statistical methods to analyze time series data and extract meaningful statistics and characteristics about the data."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000054> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000054> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T17:33:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000054> <http://www.w3.org/2000/01/rdf-schema#label> "time series analysis"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000055
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000055> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000055> <http://purl.org/dc/elements/1.1/description> "Funcions that use formal techniques to study entities using their topological, geometric, or geographic properties"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000055> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000055> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T17:36:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000055> <http://www.w3.org/2000/01/rdf-schema#label> "spatial analysis"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000056
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000056> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000056> <http://purl.org/dc/elements/1.1/description> "Functions for collecting, exploring and presenting large amounts of data to discover underlying patterns and trends."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000056> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000056> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:42:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000056> <http://www.w3.org/2000/01/rdf-schema#label> "statistical analysis"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000057
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000057> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000057> <http://purl.org/dc/elements/1.1/description> "Functions that allow quantitative analyses and/or algorithms applied to digital image data."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000057> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000057> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:44:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000057> <http://www.w3.org/2000/01/rdf-schema#label> "image processing"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000058
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000058> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000058> <http://purl.org/dc/elements/1.1/description> "Functions that parse texts in order to extract machine-readable facts from them, thereby creating structured data out of free text content."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000058> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000058> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:45:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000058> <http://www.w3.org/2000/01/rdf-schema#label> "text analysis"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000059
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000059> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000059> <http://purl.org/dc/elements/1.1/description> "Functions that facilitate analysis of objects in motion."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000059> <http://purl.org/dc/elements/1.1/description> "Structured techniques used to mathematically analyze a network of interconnected components."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000059> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000059> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:49:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000059> <http://www.w3.org/2000/01/rdf-schema#label> "graph or network analysis"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000060
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000060> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000060> <http://purl.org/dc/elements/1.1/description> "Functions (i.e., algorithms and statistical models) used to perform a specific task without using explicit instructions, relying on patterns and inference observed in input test data instead."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000060> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000060> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:53:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000060> <http://www.w3.org/2000/01/rdf-schema#label> "machine learning"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000061
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000061> <http://purl.org/dc/elements/1.1/description> "Functions that help computers understand, interpret and manipulate human language."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000061> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000061> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T18:56:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000061> <http://www.w3.org/2000/01/rdf-schema#label> "natural language processing"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000062
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000062> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000011> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000062> <http://purl.org/dc/elements/1.1/description> "Functions that present data and information in a form suitable for visual perception and decision-making by a person."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000062> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000062> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:11:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000062> <http://www.w3.org/2000/01/rdf-schema#label> "display"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000063
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000063> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000011> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000063> <http://purl.org/dc/elements/1.1/description> "Functions used to manipulate images or data so they appear as moving images."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000063> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000063> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:13:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000063> <http://www.w3.org/2000/01/rdf-schema#label> "animation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000064
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000064> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000011> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000064> <http://purl.org/dc/elements/1.1/description> "Functions used to generate two-dimensional or three-dimensional images from a model."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000064> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000064> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:16:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000064> <http://www.w3.org/2000/01/rdf-schema#label> "rendering"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000065
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000065> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000012> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000065> <http://purl.org/dc/elements/1.1/description> "Functions that automate or partly automate the generation of documentation."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000065> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000065> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:19:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000065> <http://www.w3.org/2000/01/rdf-schema#comment> "Example: Live OWL Documentation Environment (LODE)"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000065> <http://www.w3.org/2000/01/rdf-schema#label> "document generation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000066
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000066> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000012> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000066> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000066> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:25:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000066> <http://www.w3.org/2000/01/rdf-schema#comment> "Functions that transforms report data and layout information into a specific format."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000066> <http://www.w3.org/2000/01/rdf-schema#label> "report rendering"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000067
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000012> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000067> <http://purl.org/dc/elements/1.1/description> "Functions to collect and submit data so that accurate analyses of the facts on the ground can be performed."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000067> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000067> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:27:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000067> <http://www.w3.org/2000/01/rdf-schema#label> "data reporting"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000068
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000068> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000012> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000068> <http://purl.org/dc/elements/1.1/description> "Functions that allow the usage of a resource to be monitored."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000068> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000068> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:29:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000068> <http://www.w3.org/2000/01/rdf-schema#label> "usage monitoring"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000071
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000071> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000014> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000071> <http://purl.org/dc/elements/1.1/description> "Functions that track changes made to a digital asset over time"@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000071> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000071> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:48:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000071> <http://www.w3.org/2000/01/rdf-schema#label> "version control"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000072
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000072> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000014> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000072> <http://purl.org/dc/elements/1.1/description> "Functions to improve the efficiency and quality of code."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000072> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000072> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:49:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000072> <http://www.w3.org/2000/01/rdf-schema#label> "code optimization"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/SFO_0000073
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000073> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000014> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000073> <http://purl.org/dc/elements/1.1/description> "Functions for evaluating and ascertaining the completeness and quality of code, determining if it complies with its requirements, performs functions for which it is intended and meets the organization's goals and user needs."@en .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000073> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000073> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:51:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/SFO_0000073> <http://www.w3.org/2000/01/rdf-schema#label> "code validation and testing"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310> <http://purl.org/dc/elements/1.1/description> "Functions that transform data."@en .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-01T23:07:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: spatial transformation, format conversion, interpolation, regridding, etc."@en .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310> <http://www.w3.org/2000/01/rdf-schema#label> "data transformation"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311> <http://purl.org/dc/elements/1.1/description> "Functions to create, update and remove user accounts and their rights and capabilities within a system."@en .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-01T23:21:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311> <http://www.w3.org/2000/01/rdf-schema#label> "user management"@en .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
