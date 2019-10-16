@@ -97,7 +97,7 @@ oboinOwl:hasRelatedSynonym rdf:type owl:AnnotationProperty .
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000002
 <http://cor.esipfed.org/ont/~rduerr/SFO_0000002> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000001> ;
-                                                 dc:description "The function of being used in generating a scientific and logistic plan for executing a research project."@en ;
+                                                 dc:description "Functions used in generating a scientific and logistic plan for executing a research project."@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-17T22:03:53Z"^^xsd:dateTime ;
                                                  rdfs:comment "Examples: Data management planning tools; concept mapping tools; project management tools"@en ;
@@ -212,7 +212,7 @@ oboinOwl:hasRelatedSynonym rdf:type owl:AnnotationProperty .
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-17T22:34:13Z"^^xsd:dateTime ;
                                                  rdfs:comment "Examples: Data Conservancy; Fedora, DataOne; DataVerse"@en ;
-                                                 rdfs:label "data curation"@en .
+                                                 rdfs:label "data preservation"@en .
 
 
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000014
@@ -368,7 +368,7 @@ oboinOwl:hasRelatedSynonym rdf:type owl:AnnotationProperty .
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000029
 <http://cor.esipfed.org/ont/~rduerr/SFO_0000029> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> ;
-                                                 dc:description "A function that automatically and systematically searches some portion of the World Wide Web for items that meet agent provided criteria (e.g., specific keywords, certain file types)."@en ;
+                                                 dc:description "Functions that automatically and systematically search some portion of the World Wide Web for items that meet provided criteria (e.g., specific keywords, certain file types)."@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-18T23:15:57Z"^^xsd:dateTime ;
                                                  rdfs:comment "Examples: Apache Nutch, Octoparse, Dexi.io"@en ;
@@ -378,7 +378,7 @@ oboinOwl:hasRelatedSynonym rdf:type owl:AnnotationProperty .
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000030
 <http://cor.esipfed.org/ont/~rduerr/SFO_0000030> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000005> ;
-                                                 dc:description "The function of extracting specified information/data from specific, targeted sites on the World Wide Web."@en ;
+                                                 dc:description "The function of extracting specified information/data from specific, targeted sites."@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-18T23:25:01Z"^^xsd:dateTime ;
                                                  rdfs:comment "Examples: EnhancedOAIServer, OAIA, WAF, arcIMS, Z39.50"@en ;
@@ -412,20 +412,10 @@ oboinOwl:hasRelatedSynonym rdf:type owl:AnnotationProperty .
  ] .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/SFO_0000035
-<http://cor.esipfed.org/ont/~rduerr/SFO_0000035> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
-                                                 dc:description "Functions that convert data from one format to another."@en ;
-                                                 oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-                                                 oboinOwl:creation_date "2019-09-19T00:20:18Z"^^xsd:dateTime ;
-                                                 rdfs:comment "Examples: Programs that convert movies from one format to another."@en ;
-                                                 rdfs:label "format conversion"@en .
-
-
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000036
 <http://cor.esipfed.org/ont/~rduerr/SFO_0000036> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
-                                                 dc:description "Functions that prospectively ensure the quality of data yet to be acquired and to verify the data's reasonableness through the use of techniques such as flagging outlying values, etc."@en ;
+                                                 dc:description "Functions that prospectively ensure the quality of data to be acquired or which verify the data's reasonableness after acquisition through the use of techniques such as flagging outlying values, etc."@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-19T21:24:05Z"^^xsd:dateTime ;
                                                  oboinOwl:hasExactSynonym "Quality Assurance and Quality Control"@en ;
@@ -459,7 +449,7 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000042
 <http://cor.esipfed.org/ont/~rduerr/SFO_0000042> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
-                                                 dc:description "Functions that allow users to ensure that the data being used is clean and consistent."@en ;
+                                                 dc:description "Functions that help ensure that the data being used is clean and consistent."@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-19T22:10:36Z"^^xsd:dateTime ;
                                                  rdfs:comment "Examples: OpenRefine, DataWrangler, DataCleaner"@en ;
@@ -469,7 +459,7 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000043
 <http://cor.esipfed.org/ont/~rduerr/SFO_0000043> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
-                                                 dc:description "Functions that allow users to anonymize, deidentify, blur or otherwise alter data to protect information about a wide variety ofethical and legal issues"@en ;
+                                                 dc:description "Functions that allow users to anonymize, deidentify, blur or otherwise alter or hide portions of data to protect information because of ethical and legal issues"@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-19T22:14:32Z"^^xsd:dateTime ;
                                                  rdfs:comment "Example tools: ARX Data Anonymization Tool, Amnesia, sdcMicro"@en ,
@@ -595,7 +585,7 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000057
 <http://cor.esipfed.org/ont/~rduerr/SFO_0000057> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
-                                                 dc:description "Functions that allow quantitative analyses and/or algorithms applied to digital image data."@en ;
+                                                 dc:description "Functions that allow quantitative analyses and/or algorithms applied to digital image (including multimedia) data."@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-23T18:44:03Z"^^xsd:dateTime ;
                                                  rdfs:label "image processing"@en .
@@ -607,14 +597,14 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
                                                  dc:description "Functions that parse texts in order to extract machine-readable facts from them, thereby creating structured data out of free text content."@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-23T18:45:39Z"^^xsd:dateTime ;
+                                                 rdfs:comment "Example: Natural Language Processing"@en ;
                                                  rdfs:label "text analysis"@en .
 
 
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000059
 <http://cor.esipfed.org/ont/~rduerr/SFO_0000059> rdf:type owl:Class ;
                                                  rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
-                                                 dc:description "Functions that facilitate analysis of objects in motion."@en ,
-                                                                "Structured techniques used to mathematically analyze a network of interconnected components."@en ;
+                                                 dc:description "Structured techniques used to mathematically analyze a network of interconnected components."@en ;
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-23T18:49:52Z"^^xsd:dateTime ;
                                                  rdfs:label "graph or network analysis"@en .
@@ -627,15 +617,6 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                                                  oboinOwl:creation_date "2019-09-23T18:53:32Z"^^xsd:dateTime ;
                                                  rdfs:label "machine learning"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/SFO_0000061
-<http://cor.esipfed.org/ont/~rduerr/SFO_0000061> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000010> ;
-                                                 dc:description "Functions that help computers understand, interpret and manipulate human language."@en ;
-                                                 oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-                                                 oboinOwl:creation_date "2019-09-23T18:56:45Z"^^xsd:dateTime ;
-                                                 rdfs:label "natural language processing"@en .
 
 
 ###  http://cor.esipfed.org/ont/~rduerr/SFO_0000062
@@ -732,20 +713,97 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
 ###  http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310
 :ECCRO_0000310 rdf:type owl:Class ;
                rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000007> ;
-               dc:description "Functions that transform data."@en ;
+               dc:description "Functions that transform the representation of the data."@en ;
                oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
                oboinOwl:creation_date "2019-10-01T23:07:45Z"^^xsd:dateTime ;
                rdfs:comment "Examples: spatial transformation, format conversion, interpolation, regridding, etc."@en ;
                rdfs:label "data transformation"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311
-:ECCRO_0000311 rdf:type owl:Class ;
-               rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> ;
-               dc:description "Functions to create, update and remove user accounts and their rights and capabilities within a system."@en ;
-               oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-               oboinOwl:creation_date "2019-10-01T23:21:44Z"^^xsd:dateTime ;
-               rdfs:label "user management"@en .
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000100
+:SFO_0000100 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000009> ;
+             dc:description "Functions that enable a workflow process to be reproduced."@en ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-16T03:04:39Z"^^xsd:dateTime ;
+             rdfs:comment "Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use."@en ;
+             rdfs:label "reproducibility support"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000101
+:SFO_0000101 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000009> ;
+             dc:description "Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow."@en ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-16T03:10:48Z"^^xsd:dateTime ;
+             rdfs:label "provenance management"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000102
+:SFO_0000102 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000009> ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-16T03:16:29Z"^^xsd:dateTime ;
+             rdfs:label "workflow design"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000103
+:SFO_0000103 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000009> ;
+             dc:description "Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning."@en ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-16T03:20:54Z"^^xsd:dateTime ;
+             rdfs:label "workflow orchestration"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000104
+:SFO_0000104 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000009> ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-16T03:27:11Z"^^xsd:dateTime ;
+             rdfs:label "workflow execution"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000105
+:SFO_0000105 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000013> ;
+             dc:description "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."@en ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-16T03:45:48Z"^^xsd:dateTime ;
+             rdfs:label "long-term archiving"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :SFO_0000105 ;
+   owl:annotatedProperty dc:description ;
+   owl:annotatedTarget "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."@en ;
+   rdfs:isDefinedBy <https://public.ccsds.org/Pubs/650x0m2.pdf>
+ ] .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000106
+:SFO_0000106 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000013> ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-16T03:59:05Z"^^xsd:dateTime ;
+             rdfs:label "backup"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000107
+:SFO_0000107 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000013> ;
+             dc:description "Functions that enable the preservation of digital information, through transformation of the full information content from one form to another."@en ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-16T04:00:47Z"^^xsd:dateTime ;
+             rdfs:label "data migration"@en .
+
+
+###  http://cor.esipfed.org/ont/~rduerr/sfo/SFO_0000311
+:SFO_0000311 rdf:type owl:Class ;
+             rdfs:subClassOf <http://cor.esipfed.org/ont/~rduerr/SFO_0000003> ;
+             dc:description "Functions to create, update and remove user accounts and their rights and capabilities within a system."@en ;
+             oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+             oboinOwl:creation_date "2019-10-01T23:21:44Z"^^xsd:dateTime ;
+             rdfs:label "user management"@en .
 
 
 ###  Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi
