@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://cor.esipfed.org/ont/~rduerr/sfo#"
-     xml:base="http://cor.esipfed.org/ont/~rduerr/sfo"
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/sfo#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/sfo"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -10,10 +10,10 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#"
      xmlns:ontologyMetadata="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/">
-    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/~rduerr/sfo">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/sfo">
         <ontologyMetadata:contact xml:lang="en">Ruth Duerr (ruth dot duerr3 gmailcom)</ontologyMetadata:contact>
         <ontologyMetadata:contactRole>Ontology Producer</ontologyMetadata:contactRole>
-        <ontologyMetadata:creditCitation xml:lang="en">Duerr, R., 2019, &quot;Software Functions Ontology&quot;, ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/sfo</ontologyMetadata:creditCitation>
+        <ontologyMetadata:creditCitation xml:lang="en">Duerr, R., 2019, &quot;Software Functions Ontology&quot;, ESIP Community Ontology Repository, http://cor.esipfed.org/ont/earthcube/sfo</ontologyMetadata:creditCitation>
         <ontologyMetadata:creditRequired>yes</ontologyMetadata:creditRequired>
         <ontologyMetadata:hasResourceType>text/turtle</ontologyMetadata:hasResourceType>
         <ontologyMetadata:origVocManager>None</ontologyMetadata:origVocManager>
@@ -148,10 +148,10 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000001 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000001 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000001">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000001">
         <dc:description xml:lang="en">The function that software performs during the research process.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T21:39:57Z</oboInOwl:creation_date>
@@ -161,12 +161,12 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000002 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000002 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000002">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
-        <dc:description xml:lang="en">The function of being used in generating a scientific and logistic plan for executing a research project.</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000002">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
+        <dc:description xml:lang="en">Functions used in generating a scientific and logistic plan for executing a research project.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:03:53Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Examples: Data management planning tools; concept mapping tools; project management tools</rdfs:comment>
@@ -175,11 +175,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000003 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000003 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000003">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions that involve human-machine communication necessary for the operation of some component of a research project.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:12:46Z</oboInOwl:creation_date>
@@ -189,11 +189,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000004 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000004 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000004">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000004">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions enabling incorporation of new data into an information system.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:16:29Z</oboInOwl:creation_date>
@@ -204,11 +204,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000005 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000005 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000005">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000005">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions that enable an agent to locate and access (acquire for use) information resources</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:18:13Z</oboInOwl:creation_date>
@@ -218,11 +218,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000006 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000006 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000006">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000006">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions that enable interaction with data to determine usability, suitability for specific use,  for hypothesis generation, or evaluation of patterns suggesting the need for further analysis.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:19:45Z</oboInOwl:creation_date>
@@ -232,11 +232,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000007 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000007 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000007">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000007">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions to refine data for use in data analysis or other purposes.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:22:34Z</oboInOwl:creation_date>
@@ -246,11 +246,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000008 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000008 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000008">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000008">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions to produce a higher level defined data product</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:26:27Z</oboInOwl:creation_date>
@@ -260,11 +260,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000009 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000009 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000009">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000009">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions to orchestrate a series of tools in an automated fashion to perform some reproducible task.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:27:37Z</oboInOwl:creation_date>
@@ -274,11 +274,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000010 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000010 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000010">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000010">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions to enable hypothesis testing or to gain insights from data.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:28:33Z</oboInOwl:creation_date>
@@ -288,11 +288,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000011 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000011 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000011">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000011">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions to visually display data.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:29:52Z</oboInOwl:creation_date>
@@ -302,11 +302,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000012 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000012 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000012">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000012">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions that describe key aspects of a resource or its usage, or of new insights from data</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:32:42Z</oboInOwl:creation_date>
@@ -316,25 +316,25 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000013 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000013 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000013">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000013">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions that maintain and conserve data in a usable and useful condition for the long term</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:34:13Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Examples: Data Conservancy; Fedora, DataOne; DataVerse</rdfs:comment>
-        <rdfs:label xml:lang="en">data curation</rdfs:label>
+        <rdfs:label xml:lang="en">data preservation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000014 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000014 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000014">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000014">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000001"/>
         <dc:description xml:lang="en">Functions that support aspects of software development.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:35:36Z</oboInOwl:creation_date>
@@ -344,11 +344,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000015 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000015 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000015">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000015">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000002"/>
         <dc:description xml:lang="en">Functions that allow users to visually map relevant concepts, processes, and other entities relevant to planning their research.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:40:31Z</oboInOwl:creation_date>
@@ -358,11 +358,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000016 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000016 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000016">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000016">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000002"/>
         <dc:description xml:lang="en">Examples: Microsoft Project, GanttPro, Redmine, Airtable, Trello</dc:description>
         <dc:description xml:lang="en">Functions that allow users to develop and manage implementation of a project plan.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
@@ -372,11 +372,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000017 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000017 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000017">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000017">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000002"/>
         <dc:description xml:lang="en">Functions that enable planning for the logistics needed to support research in the field.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:51:18Z</oboInOwl:creation_date>
@@ -386,11 +386,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000018 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000018 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000018">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000018">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000002"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T22:58:18Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Examples: DMPtool</rdfs:comment>
@@ -400,11 +400,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000019 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000019 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000019">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000003"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000019">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000003"/>
         <dc:description xml:lang="en">Functions that authenticate and/or control access to specific capabilities.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T23:01:41Z</oboInOwl:creation_date>
@@ -414,11 +414,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000020 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000020 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000020">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000003"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000020">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000003"/>
         <dc:description xml:lang="en">Functions that allow a user to interact with a system.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T23:04:32Z</oboInOwl:creation_date>
@@ -428,11 +428,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000021 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000021 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000021">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000003"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000021">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000003"/>
         <dc:description xml:lang="en">Functions that allow users to form communities across space and time and to interact with one another remotely.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T23:09:25Z</oboInOwl:creation_date>
@@ -442,11 +442,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000022 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000022 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000022">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000003"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000022">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000003"/>
         <dc:description xml:lang="en">Functions that allow notification of events, or other happenings.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T23:13:51Z</oboInOwl:creation_date>
@@ -456,11 +456,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000023 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000023 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000023">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000004"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000023">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000004"/>
         <dc:description xml:lang="en">Functions to control the operation of a scientific instrument.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T23:20:56Z</oboInOwl:creation_date>
@@ -470,11 +470,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000024 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000024 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000024">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000004"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000024">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000004"/>
         <dc:description xml:lang="en">Functions to calibrate an instrument.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T23:24:19Z</oboInOwl:creation_date>
@@ -484,11 +484,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000025 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000025 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000025">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000004"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000025">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000004"/>
         <dc:description xml:lang="en">Functions to handle data that is streaming in real-time.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T23:28:53Z</oboInOwl:creation_date>
@@ -498,11 +498,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000026 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000026 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000026">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000004"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000026">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000004"/>
         <dc:description xml:lang="en">Functions to ingest data into a data system.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-17T23:30:08Z</oboInOwl:creation_date>
@@ -512,11 +512,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000027 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000027 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000027">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000005"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000027">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000005"/>
         <dc:description xml:lang="en">The function that enables an agent to query a system that retrieves a list of data that match the agent&apos;s search criteria and which might be suitable for their purpose.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-18T22:40:18Z</oboInOwl:creation_date>
@@ -526,11 +526,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000028 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000028 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000028">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000005"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000028">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000005"/>
         <dc:description xml:lang="en">Functions that enable an agent to access or order data.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-18T22:53:52Z</oboInOwl:creation_date>
@@ -540,12 +540,12 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000029 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000029 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000029">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000005"/>
-        <dc:description xml:lang="en">A function that automatically and systematically searches some portion of the World Wide Web for items that meet agent provided criteria (e.g., specific keywords, certain file types).</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000029">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000005"/>
+        <dc:description xml:lang="en">Functions that automatically and systematically search some portion of the World Wide Web for items that meet provided criteria (e.g., specific keywords, certain file types).</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-18T23:15:57Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Examples: Apache Nutch, Octoparse, Dexi.io</rdfs:comment>
@@ -554,12 +554,12 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000030 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000030 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000030">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000005"/>
-        <dc:description xml:lang="en">The function of extracting specified information/data from specific, targeted sites on the World Wide Web.</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000030">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000005"/>
+        <dc:description xml:lang="en">The function of extracting specified information/data from specific, targeted sites.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-18T23:25:01Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Examples: EnhancedOAIServer, OAIA, WAF, arcIMS, Z39.50</rdfs:comment>
@@ -568,11 +568,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000033 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000033 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000033">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000006"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000033">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000006"/>
         <dc:description xml:lang="en">The function of systematically analyzing groups of data in order to uncover previously unknown patterns and relationships.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-18T23:58:41Z</oboInOwl:creation_date>
@@ -582,11 +582,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000034 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000034 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000034">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000006"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000034">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000006"/>
         <dc:description xml:lang="en">Functions that allow users to perform initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and/or to check assumptions with the help of summary statistics and graphical representations.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:04:49Z</oboInOwl:creation_date>
@@ -594,7 +594,7 @@
         <rdfs:label xml:lang="en">exploratory data analysis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000034"/>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000034"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
         <owl:annotatedTarget xml:lang="en">Functions that allow users to perform initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and/or to check assumptions with the help of summary statistics and graphical representations.</owl:annotatedTarget>
         <dc:creator xml:lang="en">Adapted from Prasad Patil, https://medium.com/@theprasadpatil</dc:creator>
@@ -602,26 +602,12 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000035 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000036 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000035">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000007"/>
-        <dc:description xml:lang="en">Functions that convert data from one format to another.</dc:description>
-        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T00:20:18Z</oboInOwl:creation_date>
-        <rdfs:comment xml:lang="en">Examples: Programs that convert movies from one format to another.</rdfs:comment>
-        <rdfs:label xml:lang="en">format conversion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000036 -->
-
-
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000036">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000007"/>
-        <dc:description xml:lang="en">Functions that prospectively ensure the quality of data yet to be acquired and to verify the data&apos;s reasonableness through the use of techniques such as flagging outlying values, etc.</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000036">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000007"/>
+        <dc:description xml:lang="en">Functions that prospectively ensure the quality of data to be acquired or which verify the data&apos;s reasonableness after acquisition through the use of techniques such as flagging outlying values, etc.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T21:24:05Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym xml:lang="en">Quality Assurance and Quality Control</oboInOwl:hasExactSynonym>
@@ -631,11 +617,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000039 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000039 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000039">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000007"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000039">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000007"/>
         <dc:description xml:lang="en">Functions that allow users to extract a portion of a larger data set.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T21:59:09Z</oboInOwl:creation_date>
@@ -645,11 +631,11 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000041 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000041 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000041">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000007"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000041">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000007"/>
         <dc:description xml:lang="en">Functions that help agents develop and/or validate the metadata and other markup needed to 1) make their data usable in the short and long term or 2) prepare it for further processing and analysis.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T22:04:15Z</oboInOwl:creation_date>
@@ -662,12 +648,12 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000042 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000042 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000042">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000007"/>
-        <dc:description xml:lang="en">Functions that allow users to ensure that the data being used is clean and consistent.</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000042">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000007"/>
+        <dc:description xml:lang="en">Functions that help ensure that the data being used is clean and consistent.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T22:10:36Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Examples: OpenRefine, DataWrangler, DataCleaner</rdfs:comment>
@@ -676,12 +662,12 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000043 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000043 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000043">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000007"/>
-        <dc:description xml:lang="en">Functions that allow users to anonymize, deidentify, blur or otherwise alter data to protect information about a wide variety ofethical and legal issues</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000043">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000007"/>
+        <dc:description xml:lang="en">Functions that allow users to anonymize, deidentify, blur or otherwise alter or hide portions of data to protect information because of ethical and legal issues</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-19T22:14:32Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Example tools: ARX Data Anonymization Tool, Amnesia, sdcMicro</rdfs:comment>
@@ -697,11 +683,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000044 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000044 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000044">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000044">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions that generate geometrical shapes that cover a physical domain.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T22:39:30Z</oboInOwl:creation_date>
@@ -711,11 +697,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000045 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000045 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000045">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000045">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions that generate test data.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T22:50:51Z</oboInOwl:creation_date>
@@ -724,11 +710,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000046 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000046 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000046">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000046">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions used to validate the output products of processing or modeling softare.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T22:57:25Z</oboInOwl:creation_date>
@@ -737,11 +723,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000047 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000047 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000047">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000047">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions that allow the outputs of one model to feed into another model.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T22:59:03Z</oboInOwl:creation_date>
@@ -750,11 +736,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000048 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000048 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000048">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000048">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions that convert data into a useable and desired form.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T23:02:20Z</oboInOwl:creation_date>
@@ -763,11 +749,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000049 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000049 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000049">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000049">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions that allow users to computationally model physical processes.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T23:07:15Z</oboInOwl:creation_date>
@@ -776,11 +762,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000050 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000050 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000050">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000050">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions that allow users to adjust model parameters and forcings so that model outputs match observed values.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-20T23:09:18Z</oboInOwl:creation_date>
@@ -789,11 +775,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000051 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000051 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000051">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000051">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions that optimally combine theory, often in the form of models, with available data.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T17:23:09Z</oboInOwl:creation_date>
@@ -802,11 +788,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000053 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000053 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000053">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000008"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000053">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000008"/>
         <dc:description xml:lang="en">Functions that combine data from different sources into a single, unified view.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T17:29:33Z</oboInOwl:creation_date>
@@ -815,11 +801,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000054 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000054 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000054">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000010"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000054">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000010"/>
         <dc:description xml:lang="en">Functions that use statistical methods to analyze time series data and extract meaningful statistics and characteristics about the data.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T17:33:53Z</oboInOwl:creation_date>
@@ -828,11 +814,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000055 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000055 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000055">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000010"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000055">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000010"/>
         <dc:description xml:lang="en">Funcions that use formal techniques to study entities using their topological, geometric, or geographic properties</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T17:36:00Z</oboInOwl:creation_date>
@@ -841,11 +827,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000056 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000056 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000056">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000010"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000056">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000010"/>
         <dc:description xml:lang="en">Functions for collecting, exploring and presenting large amounts of data to discover underlying patterns and trends.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T18:42:18Z</oboInOwl:creation_date>
@@ -854,12 +840,12 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000057 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000057 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000057">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000010"/>
-        <dc:description xml:lang="en">Functions that allow quantitative analyses and/or algorithms applied to digital image data.</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000057">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000010"/>
+        <dc:description xml:lang="en">Functions that allow quantitative analyses and/or algorithms applied to digital image (including multimedia) data.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T18:44:03Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">image processing</rdfs:label>
@@ -867,25 +853,25 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000058 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000058 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000058">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000010"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000058">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000010"/>
         <dc:description xml:lang="en">Functions that parse texts in order to extract machine-readable facts from them, thereby creating structured data out of free text content.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T18:45:39Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">Example: Natural Language Processing</rdfs:comment>
         <rdfs:label xml:lang="en">text analysis</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000059 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000059 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000059">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000010"/>
-        <dc:description xml:lang="en">Functions that facilitate analysis of objects in motion.</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000059">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000010"/>
         <dc:description xml:lang="en">Structured techniques used to mathematically analyze a network of interconnected components.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T18:49:52Z</oboInOwl:creation_date>
@@ -894,11 +880,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000060 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000060 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000060">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000010"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000060">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000010"/>
         <dc:description xml:lang="en">Functions (i.e., algorithms and statistical models) used to perform a specific task without using explicit instructions, relying on patterns and inference observed in input test data instead.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T18:53:32Z</oboInOwl:creation_date>
@@ -907,24 +893,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000061 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000062 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000061">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000010"/>
-        <dc:description xml:lang="en">Functions that help computers understand, interpret and manipulate human language.</dc:description>
-        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T18:56:45Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">natural language processing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000062 -->
-
-
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000062">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000062">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000011"/>
         <dc:description xml:lang="en">Functions that present data and information in a form suitable for visual perception and decision-making by a person.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:11:40Z</oboInOwl:creation_date>
@@ -933,11 +906,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000063 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000063 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000063">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000063">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000011"/>
         <dc:description xml:lang="en">Functions used to manipulate images or data so they appear as moving images.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:13:11Z</oboInOwl:creation_date>
@@ -946,11 +919,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000064 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000064 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000064">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000064">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000011"/>
         <dc:description xml:lang="en">Functions used to generate two-dimensional or three-dimensional images from a model.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:16:20Z</oboInOwl:creation_date>
@@ -959,11 +932,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000065 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000065 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000065">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000012"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000065">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000012"/>
         <dc:description xml:lang="en">Functions that automate or partly automate the generation of documentation.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:19:48Z</oboInOwl:creation_date>
@@ -973,11 +946,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000066 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000066 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000066">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000012"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000066">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000012"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:25:10Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Functions that transforms report data and layout information into a specific format.</rdfs:comment>
@@ -986,11 +959,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000067 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000067 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000067">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000012"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000067">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000012"/>
         <dc:description xml:lang="en">Functions to collect and submit data so that accurate analyses of the facts on the ground can be performed.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:27:48Z</oboInOwl:creation_date>
@@ -999,11 +972,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000068 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000068 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000068">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000012"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000068">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000012"/>
         <dc:description xml:lang="en">Functions that allow the usage of a resource to be monitored.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:29:02Z</oboInOwl:creation_date>
@@ -1012,11 +985,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000071 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000071 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000071">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000014"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000071">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000014"/>
         <dc:description xml:lang="en">Functions that track changes made to a digital asset over time</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:48:07Z</oboInOwl:creation_date>
@@ -1025,11 +998,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000072 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000072 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000072">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000014"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000072">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000014"/>
         <dc:description xml:lang="en">Functions to improve the efficiency and quality of code.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:49:47Z</oboInOwl:creation_date>
@@ -1038,11 +1011,11 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/SFO_0000073 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000073 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/SFO_0000073">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000014"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000073">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000014"/>
         <dc:description xml:lang="en">Functions for evaluating and ascertaining the completeness and quality of code, determining if it complies with its requirements, performs functions for which it is intended and meets the organization&apos;s goals and user needs.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T19:51:20Z</oboInOwl:creation_date>
@@ -1051,12 +1024,12 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000007"/>
-        <dc:description xml:lang="en">Functions that transform data.</dc:description>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000007"/>
+        <dc:description xml:lang="en">Functions that transform the representation of the data.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-01T23:07:45Z</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Examples: spatial transformation, format conversion, interpolation, regridding, etc.</rdfs:comment>
@@ -1065,11 +1038,119 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/SFO_0000003"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
+        <dc:description xml:lang="en">Functions that enable a workflow process to be reproduced.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:04:39Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use.</rdfs:comment>
+        <rdfs:label xml:lang="en">reproducibility support</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
+        <dc:description xml:lang="en">Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:10:48Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">provenance management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:16:29Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">workflow design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
+        <dc:description xml:lang="en">Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:20:54Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">workflow orchestration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:27:11Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">workflow execution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000013"/>
+        <dc:description xml:lang="en">Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:45:48Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">long-term archiving</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <owl:annotatedTarget xml:lang="en">Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community.</owl:annotatedTarget>
+        <rdfs:isDefinedBy rdf:resource="https://public.ccsds.org/Pubs/650x0m2.pdf"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000013"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:59:05Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">backup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000013"/>
+        <dc:description xml:lang="en">Functions that enable the preservation of digital information, through transformation of the full information content from one form to another.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T04:00:47Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">data migration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000003"/>
         <dc:description xml:lang="en">Functions to create, update and remove user accounts and their rights and capabilities within a system.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-01T23:21:44Z</oboInOwl:creation_date>

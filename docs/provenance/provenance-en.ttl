@@ -1,9 +1,10 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-<http://cor.esipfed.org/ont/~rduerr/sfo> a prov:Entity;
+<..\index-en.html> a prov:Entity;
 	 dc:title "Software Functions Ontology";
 	 prov:wasAttributedTo <https://orcid.org/0000-0003-4808-4736>;
 	 dc:creator <https://orcid.org/0000-0003-4808-4736>;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <ontology ns URI	http://cor.esipfed.org/ont/earthcube/sfo>;
 .

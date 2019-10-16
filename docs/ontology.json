@@ -9,14 +9,30 @@
     "@id" : "http://purl.org/dc/elements/1.1/description"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000034"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000034"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@language" : "en",
     "@value" : "Functions that allow users to perform initial investigations on data so as to discover patterns, to spot anomalies, to test hypothesis and/or to check assumptions with the help of summary statistics and graphical representations."
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001",
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://public.ccsds.org/Pubs/650x0m2.pdf"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/description"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -38,11 +54,11 @@
     "@value" : "research software function"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000002",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000002",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "The function of being used in generating a scientific and logistic plan for executing a research project."
+    "@value" : "Functions used in generating a scientific and logistic plan for executing a research project."
   } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -60,10 +76,10 @@
     "@value" : "research planning"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000003",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -85,10 +101,10 @@
     "@value" : "user interaction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000004",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000004",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -113,10 +129,10 @@
     "@value" : "data acquisition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000005",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000005",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -138,10 +154,10 @@
     "@value" : "data discovery and access"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000006",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000006",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -163,10 +179,10 @@
     "@value" : "data exploration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -188,10 +204,10 @@
     "@value" : "data preparation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -213,10 +229,10 @@
     "@value" : "data processing and modeling"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000009",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -238,10 +254,10 @@
     "@value" : "workflow management"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -263,10 +279,10 @@
     "@value" : "data analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000011",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000011",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -288,10 +304,10 @@
     "@value" : "visualization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000012",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000012",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -313,10 +329,10 @@
     "@value" : "reporting"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000013",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -335,13 +351,13 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "data curation"
+    "@value" : "data preservation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000014",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000014",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -363,10 +379,10 @@
     "@value" : "programmer assistance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000001"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000001"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000015",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000015",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -388,10 +404,10 @@
     "@value" : "mental modeling"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000002"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000002"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000016",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000016",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -412,10 +428,10 @@
     "@value" : "project planning"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000002"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000002"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000017",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000017",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -437,10 +453,10 @@
     "@value" : "logistics planning"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000002"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000002"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000018",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000018",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -461,10 +477,10 @@
     "@value" : "data management planning"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000002"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000002"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000019",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000019",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -486,10 +502,10 @@
     "@value" : "authentication and access control"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000003"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000020",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000020",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -511,10 +527,10 @@
     "@value" : "user interface"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000003"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000021",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000021",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -536,10 +552,10 @@
     "@value" : "community support & social networking"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000003"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000022",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000022",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -561,10 +577,10 @@
     "@value" : "notification"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000003"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000023",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000023",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -586,10 +602,10 @@
     "@value" : "instrument control"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000004"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000004"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000024",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000024",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -611,10 +627,10 @@
     "@value" : "instrument calibration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000004"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000004"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000025",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000025",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -636,10 +652,10 @@
     "@value" : "streaming data handling"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000004"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000004"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000026",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000026",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -661,10 +677,10 @@
     "@value" : "data ingest"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000004"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000004"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000027",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000027",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -686,10 +702,10 @@
     "@value" : "data query"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000005"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000005"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000028",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000028",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -711,14 +727,14 @@
     "@value" : "data access/order"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000005"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000005"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000029",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000029",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "A function that automatically and systematically searches some portion of the World Wide Web for items that meet agent provided criteria (e.g., specific keywords, certain file types)."
+    "@value" : "Functions that automatically and systematically search some portion of the World Wide Web for items that meet provided criteria (e.g., specific keywords, certain file types)."
   } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -736,14 +752,14 @@
     "@value" : "web crawling"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000005"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000005"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000030",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000030",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "The function of extracting specified information/data from specific, targeted sites on the World Wide Web."
+    "@value" : "The function of extracting specified information/data from specific, targeted sites."
   } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -761,10 +777,10 @@
     "@value" : "data harvesting"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000005"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000005"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000033",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000033",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -786,10 +802,10 @@
     "@value" : "data mining"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000006"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000006"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000034",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000034",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -811,39 +827,14 @@
     "@value" : "exploratory data analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000006"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000006"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000035",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000036",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "Functions that convert data from one format to another."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-09-19T00:20:18Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Examples: Programs that convert movies from one format to another."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "format conversion"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000036",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that prospectively ensure the quality of data yet to be acquired and to verify the data's reasonableness through the use of techniques such as flagging outlying values, etc."
+    "@value" : "Functions that prospectively ensure the quality of data to be acquired or which verify the data's reasonableness after acquisition through the use of techniques such as flagging outlying values, etc."
   } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -865,10 +856,10 @@
     "@value" : "QA/QC"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000039",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000039",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -890,10 +881,10 @@
     "@value" : "subsetting"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000041",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000041",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -918,14 +909,14 @@
     "@value" : "metadata assistance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000042",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000042",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "Functions that allow users to ensure that the data being used is clean and consistent."
+    "@value" : "Functions that help ensure that the data being used is clean and consistent."
   } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -943,14 +934,14 @@
     "@value" : "data cleaning"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000043",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000043",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "Functions that allow users to anonymize, deidentify, blur or otherwise alter data to protect information about a wide variety ofethical and legal issues"
+    "@value" : "Functions that allow users to anonymize, deidentify, blur or otherwise alter or hide portions of data to protect information because of ethical and legal issues"
   } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -971,10 +962,10 @@
     "@value" : "data desensitization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000044",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000044",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -996,10 +987,10 @@
     "@value" : "grid or mesh generation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000045",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000045",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1017,10 +1008,10 @@
     "@value" : "test data generation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000046",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000046",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1038,10 +1029,10 @@
     "@value" : "output validation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000047",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000047",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1059,10 +1050,10 @@
     "@value" : "model coupling"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000048",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000048",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1080,10 +1071,10 @@
     "@value" : "data processing"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000049",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000049",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1101,10 +1092,10 @@
     "@value" : "computational model"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000050",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000050",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1122,10 +1113,10 @@
     "@value" : "model calibration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000051",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000051",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1143,10 +1134,10 @@
     "@value" : "inversion/assimilation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000053",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000053",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1164,10 +1155,10 @@
     "@value" : "data integration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000008"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000008"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000054",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000054",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1185,10 +1176,10 @@
     "@value" : "time series analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000055",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000055",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1206,10 +1197,10 @@
     "@value" : "spatial analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000056",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000056",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1227,14 +1218,14 @@
     "@value" : "statistical analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000057",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000057",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "Functions that allow quantitative analyses and/or algorithms applied to digital image data."
+    "@value" : "Functions that allow quantitative analyses and/or algorithms applied to digital image (including multimedia) data."
   } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -1248,10 +1239,10 @@
     "@value" : "image processing"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000058",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000058",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1264,20 +1255,21 @@
     "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "@value" : "2019-09-23T18:45:39Z"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Example: Natural Language Processing"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "text analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000059",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000059",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that facilitate analysis of objects in motion."
-  }, {
     "@language" : "en",
     "@value" : "Structured techniques used to mathematically analyze a network of interconnected components."
   } ],
@@ -1293,10 +1285,10 @@
     "@value" : "graph or network analysis"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000060",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000060",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1314,31 +1306,10 @@
     "@value" : "machine learning"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000061",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that help computers understand, interpret and manipulate human language."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-09-23T18:56:45Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "natural language processing"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000010"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000062",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000062",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1356,10 +1327,10 @@
     "@value" : "display"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000011"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000011"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000063",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000063",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1377,10 +1348,10 @@
     "@value" : "animation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000011"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000011"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000064",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000064",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1398,10 +1369,10 @@
     "@value" : "rendering"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000011"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000011"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000065",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000065",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1423,10 +1394,10 @@
     "@value" : "document generation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000012"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000012"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000066",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000066",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -1444,10 +1415,10 @@
     "@value" : "report rendering"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000012"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000012"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000067",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000067",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1465,10 +1436,10 @@
     "@value" : "data reporting"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000012"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000012"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000068",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000068",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1486,10 +1457,10 @@
     "@value" : "usage monitoring"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000012"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000012"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000071",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000071",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1507,10 +1478,10 @@
     "@value" : "version control"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000014"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000014"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000072",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000072",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1528,10 +1499,10 @@
     "@value" : "code optimization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000014"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000014"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000073",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000073",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1549,10 +1520,10 @@
     "@value" : "code validation and testing"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000014"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000014"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/sfo",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact" : [ {
     "@language" : "en",
@@ -1563,7 +1534,7 @@
   } ],
   "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation" : [ {
     "@language" : "en",
-    "@value" : "Duerr, R., 2019, \"Software Functions Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/sfo"
+    "@value" : "Duerr, R., 2019, \"Software Functions Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/earthcube/sfo"
   } ],
   "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired" : [ {
     "@value" : "yes"
@@ -1592,11 +1563,11 @@
     "@value" : "2019-09-17T23:32:13Z"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000310",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
-    "@value" : "Functions that transform data."
+    "@value" : "Functions that transform the representation of the data."
   } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "http://orcid.org/0000-0003-4808-4736"
@@ -1614,10 +1585,170 @@
     "@value" : "data transformation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000007"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/sfo/ECCRO_0000311",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable a workflow process to be reproduced."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:04:39Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reproducibility support"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:10:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "provenance management"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:16:29Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "workflow design"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:20:54Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "workflow orchestration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:27:11Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "workflow execution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:45:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "long-term archiving"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:59:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "backup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable the preservation of digital information, through transformation of the full information content from one form to another."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T04:00:47Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "data migration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -1635,7 +1766,7 @@
     "@value" : "user management"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/~rduerr/SFO_0000003"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003"
   } ]
 }, {
   "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact",
