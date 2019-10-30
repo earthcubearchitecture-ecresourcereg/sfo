@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/earthcube", "http://www.w3.org/2001/XMLSchema", "http://cor.esipfed.org/ont/earthcube/sfo" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/earthcube", "http://www.w3.org/2001/XMLSchema" ],
     "title" : {
       "en" : "Software Functions Ontology"
     },
@@ -88,46 +88,22 @@
     "id" : "23",
     "type" : "owl:Class"
   }, {
-    "id" : "30",
+    "id" : "35",
     "type" : "owl:Class"
   }, {
-    "id" : "32",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
-    "type" : "owl:Class"
-  }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "16",
-    "type" : "owl:Class"
-  }, {
-    "id" : "12",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "39",
-    "type" : "owl:Class"
-  }, {
-    "id" : "38",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "55",
+    "id" : "51",
     "type" : "owl:Class"
   }, {
-    "id" : "58",
+    "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "56",
     "type" : "owl:Class"
   }, {
     "id" : "61",
@@ -142,10 +118,19 @@
     "id" : "71",
     "type" : "owl:Class"
   }, {
-    "id" : "56",
+    "id" : "52",
     "type" : "owl:Class"
   }, {
     "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
     "type" : "owl:Class"
   }, {
     "id" : "62",
@@ -157,28 +142,43 @@
     "id" : "64",
     "type" : "owl:Class"
   }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
     "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
     "type" : "owl:Class"
   }, {
     "id" : "41",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "44",
-    "type" : "owl:Class"
-  }, {
-    "id" : "45",
+    "id" : "38",
     "type" : "owl:Class"
   }, {
     "id" : "42",
     "type" : "owl:Class"
   }, {
-    "id" : "46",
+    "id" : "13",
     "type" : "owl:Class"
   }, {
-    "id" : "37",
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
     "type" : "owl:Class"
   }, {
     "id" : "2",
@@ -190,22 +190,22 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "49",
+    "id" : "45",
     "type" : "owl:Class"
   }, {
     "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "50",
+    "id" : "46",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
+    "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "53",
+    "id" : "49",
     "type" : "owl:Class"
   }, {
     "id" : "24",
@@ -214,22 +214,16 @@
     "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "92",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
     "id" : "4",
     "type" : "owl:Class"
   }, {
     "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "27",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "28",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
     "id" : "7",
@@ -257,6 +251,12 @@
     "type" : "owl:Class"
   }, {
     "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
     "type" : "owl:Class"
   }, {
     "id" : "29",
@@ -424,230 +424,6 @@
     "id" : "23",
     "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "description" : {
-      "en" : "Functions that enable the preservation of digital information, through transformation of the full information content from one form to another."
-    },
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-16T04:00:47Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000107",
-      "en" : "data migration"
-    },
-    "attributes" : [ "external" ],
-    "id" : "30",
-    "superClasses" : [ "31" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-16T03:59:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000106",
-      "en" : "backup"
-    },
-    "attributes" : [ "external" ],
-    "id" : "32",
-    "superClasses" : [ "31" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "description" : {
-      "en" : "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."
-    },
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://public.ccsds.org/Pubs/650x0m2.pdf",
-        "type" : "iri"
-      } ],
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-16T03:45:48Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000105",
-      "en" : "long-term archiving"
-    },
-    "attributes" : [ "external" ],
-    "id" : "33",
-    "superClasses" : [ "31" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-16T03:27:11Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000104",
-      "en" : "workflow execution"
-    },
-    "attributes" : [ "external" ],
-    "id" : "14",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "description" : {
-      "en" : "Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning."
-    },
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-16T03:20:54Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000103",
-      "en" : "workflow orchestration"
-    },
-    "attributes" : [ "external" ],
-    "id" : "15",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-16T03:16:29Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000102",
-      "en" : "workflow design"
-    },
-    "attributes" : [ "external" ],
-    "id" : "16",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "description" : {
-      "en" : "Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow."
-    },
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-16T03:10:48Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000101",
-      "en" : "provenance management"
-    },
-    "attributes" : [ "external" ],
-    "id" : "12",
-    "superClasses" : [ "11" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "description" : {
-      "en" : "Functions that enable a workflow process to be reproduced."
-    },
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-16T03:04:39Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000100",
-      "en" : "reproducibility support"
-    },
-    "comment" : {
-      "en" : "Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use."
-    },
-    "attributes" : [ "external" ],
-    "id" : "13",
-    "superClasses" : [ "11" ]
-  }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000011",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
     "instances" : 0,
@@ -672,12 +448,12 @@
       "IRI-based" : "SFO_0000011",
       "en" : "visualization"
     },
-    "subClasses" : [ "40", "41", "42" ],
+    "subClasses" : [ "36", "37", "38" ],
     "comment" : {
       "en" : "Examples: ASINA (https://nsidc.org/arcticseaicenews/); Google Earth; ParaView"
     },
     "attributes" : [ "external" ],
-    "id" : "39",
+    "id" : "35",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000012",
@@ -704,12 +480,12 @@
       "IRI-based" : "SFO_0000012",
       "en" : "reporting"
     },
-    "subClasses" : [ "44", "45", "46", "37" ],
+    "subClasses" : [ "40", "41", "42", "33" ],
     "comment" : {
       "en" : "Examples: Google Analytics"
     },
     "attributes" : [ "external" ],
-    "id" : "38",
+    "id" : "34",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000010",
@@ -736,7 +512,7 @@
       "IRI-based" : "SFO_0000010",
       "en" : "data analysis"
     },
-    "subClasses" : [ "35", "21", "49", "50", "51", "52", "53" ],
+    "subClasses" : [ "31", "21", "45", "46", "47", "48", "49" ],
     "comment" : {
       "en" : "Examples: Topic modeling; Named entity recognition; ArcMap; various R statistical or image processing packages;"
     },
@@ -772,8 +548,8 @@
       "en" : "Examples: mindmapping, concept mapping, brainstorming software"
     },
     "attributes" : [ "external" ],
-    "id" : "55",
-    "superClasses" : [ "56" ]
+    "id" : "51",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000016",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -800,8 +576,8 @@
       "en" : "project planning"
     },
     "attributes" : [ "external" ],
-    "id" : "58",
-    "superClasses" : [ "56" ]
+    "id" : "54",
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -827,12 +603,12 @@
       "IRI-based" : "SFO_0000013",
       "en" : "data preservation"
     },
-    "subClasses" : [ "30", "32", "33" ],
+    "subClasses" : [ "57", "58", "59" ],
     "comment" : {
       "en" : "Examples: Data Conservancy; Fedora, DataOne; DataVerse"
     },
     "attributes" : [ "external" ],
-    "id" : "31",
+    "id" : "56",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000014",
@@ -891,7 +667,7 @@
       "IRI-based" : "SFO_0000001",
       "en" : "research software function"
     },
-    "subClasses" : [ "0", "11", "17", "23", "39", "38", "22", "70", "71", "56", "31", "72", "61" ],
+    "subClasses" : [ "0", "11", "17", "23", "35", "34", "22", "70", "71", "52", "56", "72", "61" ],
     "comment" : {
       "en" : "Example: The concept “Research Planning” may be used to describe the function of sofware used in generating a plan for a research project."
     },
@@ -924,7 +700,7 @@
     },
     "subClasses" : [ "76", "77", "78", "79" ],
     "comment" : {
-      "en" : "Data might originate from instruments or from other information systems."
+      "en" : "Examples: satellite downlink software; streaming data handlers (stream gauge); strike and dip app for mobile device; strabo"
     },
     "attributes" : [ "external" ],
     "id" : "70",
@@ -986,12 +762,12 @@
       "IRI-based" : "SFO_0000002",
       "en" : "research planning"
     },
-    "subClasses" : [ "85", "86", "55", "58" ],
+    "subClasses" : [ "85", "86", "51", "54" ],
     "comment" : {
       "en" : "Examples: Data management planning tools; concept mapping tools; project management tools"
     },
     "attributes" : [ "external" ],
-    "id" : "56",
+    "id" : "52",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003",
@@ -1025,6 +801,93 @@
     "attributes" : [ "external" ],
     "id" : "72",
     "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000107",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable the preservation of digital information, through transformation of the full information content from one form to another."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-16T04:00:47Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000107",
+      "en" : "data migration"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000105",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://public.ccsds.org/Pubs/650x0m2.pdf",
+        "type" : "iri"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-16T03:45:48Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000105",
+      "en" : "long-term archiving"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000106",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-16T03:59:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000106",
+      "en" : "backup"
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "56" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000073",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1135,8 +998,8 @@
       "en" : "display"
     },
     "attributes" : [ "external" ],
-    "id" : "40",
-    "superClasses" : [ "39" ]
+    "id" : "36",
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000063",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1163,8 +1026,8 @@
       "en" : "animation"
     },
     "attributes" : [ "external" ],
-    "id" : "41",
-    "superClasses" : [ "39" ]
+    "id" : "37",
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000060",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1191,7 +1054,7 @@
       "en" : "machine learning"
     },
     "attributes" : [ "external" ],
-    "id" : "35",
+    "id" : "31",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000066",
@@ -1219,8 +1082,39 @@
       "en" : "Functions that transforms report data and layout information into a specific format."
     },
     "attributes" : [ "external" ],
-    "id" : "44",
-    "superClasses" : [ "38" ]
+    "id" : "40",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000100",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable a workflow process to be reproduced."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-16T03:04:39Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000100",
+      "en" : "reproducibility support"
+    },
+    "comment" : {
+      "en" : "Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000067",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1247,8 +1141,8 @@
       "en" : "data reporting"
     },
     "attributes" : [ "external" ],
-    "id" : "45",
-    "superClasses" : [ "38" ]
+    "id" : "41",
+    "superClasses" : [ "34" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000064",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1275,8 +1169,8 @@
       "en" : "rendering"
     },
     "attributes" : [ "external" ],
-    "id" : "42",
-    "superClasses" : [ "39" ]
+    "id" : "38",
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000065",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1306,8 +1200,61 @@
       "en" : "Example: Live OWL Documentation Environment (LODE)"
     },
     "attributes" : [ "external" ],
-    "id" : "46",
-    "superClasses" : [ "38" ]
+    "id" : "42",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000103",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-16T03:20:54Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000103",
+      "en" : "workflow orchestration"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000104",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-16T03:27:11Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000104",
+      "en" : "workflow execution"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000068",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1334,8 +1281,61 @@
       "en" : "usage monitoring"
     },
     "attributes" : [ "external" ],
-    "id" : "37",
-    "superClasses" : [ "38" ]
+    "id" : "33",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000101",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-16T03:10:48Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000101",
+      "en" : "provenance management"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000102",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-16T03:16:29Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000102",
+      "en" : "workflow design"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000051",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1446,7 +1446,7 @@
       "en" : "statistical analysis"
     },
     "attributes" : [ "external" ],
-    "id" : "49",
+    "id" : "45",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000053",
@@ -1502,7 +1502,7 @@
       "en" : "time series analysis"
     },
     "attributes" : [ "external" ],
-    "id" : "50",
+    "id" : "46",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000059",
@@ -1530,7 +1530,7 @@
       "en" : "graph or network analysis"
     },
     "attributes" : [ "external" ],
-    "id" : "51",
+    "id" : "47",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000057",
@@ -1558,7 +1558,7 @@
       "en" : "image processing"
     },
     "attributes" : [ "external" ],
-    "id" : "52",
+    "id" : "48",
     "superClasses" : [ "22" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000058",
@@ -1589,39 +1589,8 @@
       "en" : "Example: Natural Language Processing"
     },
     "attributes" : [ "external" ],
-    "id" : "53",
+    "id" : "49",
     "superClasses" : [ "22" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "description" : {
-      "en" : "Functions that transform the representation of the data."
-    },
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-01T23:07:45Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ECCRO_0000310",
-      "en" : "data transformation"
-    },
-    "comment" : {
-      "en" : "Examples: spatial transformation, format conversion, interpolation, regridding, etc."
-    },
-    "attributes" : [ "external" ],
-    "id" : "24",
-    "superClasses" : [ "23" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000039",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1651,36 +1620,8 @@
       "en" : "Examples: channel selection, spatial subsetting, temporal subsetting"
     },
     "attributes" : [ "external" ],
-    "id" : "25",
+    "id" : "24",
     "superClasses" : [ "23" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube/sfo",
-    "instances" : 0,
-    "description" : {
-      "en" : "Functions to create, update and remove user accounts and their rights and capabilities within a system."
-    },
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-01T23:21:44Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "SFO_0000311",
-      "en" : "user management"
-    },
-    "attributes" : [ "external" ],
-    "id" : "92",
-    "superClasses" : [ "72" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000041",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -1710,7 +1651,7 @@
       "en" : "Examples: AgriMetamaker, C Compliance Checker, M3Cat, Metacat, Morpho, SPASE metadata editor"
     },
     "attributes" : [ "external" ],
-    "id" : "26",
+    "id" : "25",
     "superClasses" : [ "23" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000044",
@@ -1800,7 +1741,7 @@
       "en" : "Examples: OpenRefine, DataWrangler, DataCleaner"
     },
     "attributes" : [ "external" ],
-    "id" : "27",
+    "id" : "26",
     "superClasses" : [ "23" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000043",
@@ -1828,10 +1769,10 @@
       "en" : "data desensitization"
     },
     "comment" : {
-      "en" : "Example tools: ARX Data Anonymization Tool, Amnesia, sdcMicro"
+      "en" : "Some of the issues addressed:\n\n* location of  \n   * protected species\n   * archaeological sites\n   * specimen locations\n* personal privacy"
     },
     "attributes" : [ "external" ],
-    "id" : "28",
+    "id" : "27",
     "superClasses" : [ "23" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000048",
@@ -2107,6 +2048,65 @@
     "id" : "19",
     "superClasses" : [ "17" ]
   }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000310",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions that transform the representation of the data."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-01T23:07:45Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000310",
+      "en" : "data transformation"
+    },
+    "comment" : {
+      "en" : "Examples: spatial transformation, format conversion, interpolation, regridding, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000311",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
+    "instances" : 0,
+    "description" : {
+      "en" : "Functions to create, update and remove user accounts and their rights and capabilities within a system."
+    },
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-01T23:21:44Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SFO_0000311",
+      "en" : "user management"
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "72" ]
+  }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000036",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
     "instances" : 0,
@@ -2204,7 +2204,7 @@
     },
     "attributes" : [ "external" ],
     "id" : "85",
-    "superClasses" : [ "56" ]
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000018",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -2228,11 +2228,11 @@
       "en" : "data management planning"
     },
     "comment" : {
-      "en" : "Functions to enable the development and management of data management plans."
+      "en" : "Examples: DMPtool"
     },
     "attributes" : [ "external" ],
     "id" : "86",
-    "superClasses" : [ "56" ]
+    "superClasses" : [ "52" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/earthcube/SFO_0000022",
     "baseIri" : "http://cor.esipfed.org/ont/earthcube",
@@ -2486,28 +2486,28 @@
     "id" : "20",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "34",
+    "id" : "30",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "36",
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "43",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "47",
+    "id" : "44",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "48",
+    "id" : "50",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "54",
+    "id" : "53",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "57",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "59",
+    "id" : "55",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "60",
@@ -2706,52 +2706,52 @@
     "id" : "20"
   }, {
     "range" : "22",
-    "domain" : "35",
+    "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "34"
+    "id" : "30"
   }, {
-    "range" : "38",
-    "domain" : "37",
+    "range" : "34",
+    "domain" : "33",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "36"
+    "id" : "32"
   }, {
-    "range" : "38",
-    "domain" : "44",
+    "range" : "34",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "35",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "43"
   }, {
-    "range" : "39",
+    "range" : "34",
     "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "47"
+    "id" : "44"
   }, {
-    "range" : "38",
-    "domain" : "46",
+    "range" : "34",
+    "domain" : "41",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "48"
-  }, {
-    "range" : "38",
-    "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "54"
+    "id" : "50"
   }, {
     "range" : "23",
     "domain" : "29",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "57"
+    "id" : "53"
   }, {
     "range" : "23",
     "domain" : "28",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "59"
+    "id" : "55"
   }, {
-    "range" : "39",
-    "domain" : "41",
+    "range" : "35",
+    "domain" : "37",
     "attributes" : [ "object", "anonymous" ],
     "id" : "60"
   }, {
-    "range" : "39",
-    "domain" : "40",
+    "range" : "35",
+    "domain" : "36",
     "attributes" : [ "object", "anonymous" ],
     "id" : "65"
   }, {
@@ -2811,22 +2811,22 @@
     "id" : "94"
   }, {
     "range" : "1",
-    "domain" : "31",
+    "domain" : "56",
     "attributes" : [ "object", "anonymous" ],
     "id" : "95"
   }, {
     "range" : "1",
-    "domain" : "56",
+    "domain" : "52",
     "attributes" : [ "object", "anonymous" ],
     "id" : "96"
   }, {
     "range" : "1",
-    "domain" : "38",
+    "domain" : "34",
     "attributes" : [ "object", "anonymous" ],
     "id" : "97"
   }, {
     "range" : "1",
-    "domain" : "39",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "98"
   }, {
@@ -2875,43 +2875,43 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "107"
   }, {
-    "range" : "31",
-    "domain" : "30",
+    "range" : "56",
+    "domain" : "57",
     "attributes" : [ "object", "anonymous" ],
     "id" : "108"
   }, {
     "range" : "22",
-    "domain" : "53",
+    "domain" : "49",
     "attributes" : [ "object", "anonymous" ],
     "id" : "109"
   }, {
-    "range" : "31",
-    "domain" : "33",
+    "range" : "56",
+    "domain" : "59",
     "attributes" : [ "object", "anonymous" ],
     "id" : "110"
   }, {
-    "range" : "31",
-    "domain" : "32",
+    "range" : "56",
+    "domain" : "58",
     "attributes" : [ "object", "anonymous" ],
     "id" : "111"
   }, {
     "range" : "22",
-    "domain" : "50",
+    "domain" : "46",
     "attributes" : [ "object", "anonymous" ],
     "id" : "112"
   }, {
     "range" : "22",
-    "domain" : "49",
+    "domain" : "45",
     "attributes" : [ "object", "anonymous" ],
     "id" : "113"
   }, {
     "range" : "22",
-    "domain" : "52",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
     "id" : "114"
   }, {
     "range" : "22",
-    "domain" : "51",
+    "domain" : "47",
     "attributes" : [ "object", "anonymous" ],
     "id" : "115"
   }, {
@@ -2935,12 +2935,12 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "119"
   }, {
-    "range" : "56",
-    "domain" : "55",
+    "range" : "52",
+    "domain" : "51",
     "attributes" : [ "object", "anonymous" ],
     "id" : "120"
   }, {
-    "range" : "56",
+    "range" : "52",
     "domain" : "86",
     "attributes" : [ "object", "anonymous" ],
     "id" : "121"
@@ -2950,8 +2950,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "122"
   }, {
-    "range" : "56",
-    "domain" : "58",
+    "range" : "52",
+    "domain" : "54",
     "attributes" : [ "object", "anonymous" ],
     "id" : "123"
   }, {
@@ -2965,7 +2965,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "125"
   }, {
-    "range" : "56",
+    "range" : "52",
     "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "126"

@@ -25,7 +25,7 @@
     "@id" : "http://purl.org/dc/elements/1.1/description"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105"
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000105"
   } ],
   "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
     "@language" : "en",
@@ -1523,6 +1523,212 @@
     "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000014"
   } ]
 }, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable a workflow process to be reproduced."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:04:39Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reproducibility support"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:10:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "provenance management"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:16:29Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "workflow design"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:20:54Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "workflow orchestration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:27:11Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "workflow execution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:45:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "long-term archiving"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T03:59:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "backup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that enable the preservation of digital information, through transformation of the full information content from one form to another."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-16T04:00:47Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "data migration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000310",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions that transform the representation of the data."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-01T23:07:45Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Examples: spatial transformation, format conversion, interpolation, regridding, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "data transformation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000311",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Functions to create, update and remove user accounts and their rights and capabilities within a system."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-01T23:21:44Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "user management"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003"
+  } ]
+}, {
   "@id" : "http://cor.esipfed.org/ont/earthcube/sfo",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact" : [ {
@@ -1561,212 +1767,6 @@
   } ],
   "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
     "@value" : "2019-09-17T23:32:13Z"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that transform the representation of the data."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-01T23:07:45Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Examples: spatial transformation, format conversion, interpolation, regridding, etc."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "data transformation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000007"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that enable a workflow process to be reproduced."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-16T03:04:39Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "reproducibility support"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-16T03:10:48Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "provenance management"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-16T03:16:29Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "workflow design"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-16T03:20:54Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "workflow orchestration"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-16T03:27:11Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "workflow execution"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000009"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-16T03:45:48Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "long-term archiving"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-16T03:59:05Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "backup"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions that enable the preservation of digital information, through transformation of the full information content from one form to another."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-16T04:00:47Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "data migration"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000013"
-  } ]
-}, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@language" : "en",
-    "@value" : "Functions to create, update and remove user accounts and their rights and capabilities within a system."
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
-    "@id" : "http://orcid.org/0000-0003-4808-4736"
-  } ],
-  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : "2019-10-01T23:21:44Z"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "user management"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://cor.esipfed.org/ont/earthcube/SFO_0000003"
   } ]
 }, {
   "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact",

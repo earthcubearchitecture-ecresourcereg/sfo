@@ -1024,24 +1024,10 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000100 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000007"/>
-        <dc:description xml:lang="en">Functions that transform the representation of the data.</dc:description>
-        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-01T23:07:45Z</oboInOwl:creation_date>
-        <rdfs:comment xml:lang="en">Examples: spatial transformation, format conversion, interpolation, regridding, etc.</rdfs:comment>
-        <rdfs:label xml:lang="en">data transformation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100 -->
-
-
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000100">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
         <dc:description xml:lang="en">Functions that enable a workflow process to be reproduced.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
@@ -1052,10 +1038,10 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000101 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000101">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
         <dc:description xml:lang="en">Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
@@ -1065,10 +1051,10 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000102 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000102">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:16:29Z</oboInOwl:creation_date>
@@ -1077,10 +1063,10 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000103 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000103">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
         <dc:description xml:lang="en">Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
@@ -1090,10 +1076,10 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000104 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000104">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000009"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:27:11Z</oboInOwl:creation_date>
@@ -1102,10 +1088,10 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000105 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000105">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000013"/>
         <dc:description xml:lang="en">Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
@@ -1113,7 +1099,7 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
         <rdfs:label xml:lang="en">long-term archiving</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105"/>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000105"/>
         <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
         <owl:annotatedTarget xml:lang="en">Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community.</owl:annotatedTarget>
         <rdfs:isDefinedBy rdf:resource="https://public.ccsds.org/Pubs/650x0m2.pdf"/>
@@ -1121,10 +1107,10 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000106 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000106">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000013"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T03:59:05Z</oboInOwl:creation_date>
@@ -1133,10 +1119,10 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000107 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000107">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000013"/>
         <dc:description xml:lang="en">Functions that enable the preservation of digital information, through transformation of the full information content from one form to another.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
@@ -1146,10 +1132,24 @@ Functions specifically include NLP markup (e.b., syntactic structure), image mar
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000310 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000310">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000007"/>
+        <dc:description xml:lang="en">Functions that transform the representation of the data.</dc:description>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-01T23:07:45Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">Examples: spatial transformation, format conversion, interpolation, regridding, etc.</rdfs:comment>
+        <rdfs:label xml:lang="en">data transformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/SFO_0000311 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/SFO_0000311">
         <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/SFO_0000003"/>
         <dc:description xml:lang="en">Functions to create, update and remove user accounts and their rights and capabilities within a system.</dc:description>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>

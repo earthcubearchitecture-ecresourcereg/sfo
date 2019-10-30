@@ -622,88 +622,88 @@ _:genid1 <http://purl.org/dc/elements/1.1/creator> "Adapted from Prasad Patil, h
 <http://cor.esipfed.org/ont/earthcube/SFO_0000073> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-23T19:51:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://cor.esipfed.org/ont/earthcube/SFO_0000073> <http://www.w3.org/2000/01/rdf-schema#label> "code validation and testing"@en .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310
-<http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000007> .
-<http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310> <http://purl.org/dc/elements/1.1/description> "Functions that transform the representation of the data."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-01T23:07:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: spatial transformation, format conversion, interpolation, regridding, etc."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/ECCRO_0000310> <http://www.w3.org/2000/01/rdf-schema#label> "data transformation"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000100
+<http://cor.esipfed.org/ont/earthcube/SFO_0000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000100> <http://purl.org/dc/elements/1.1/description> "Functions that enable a workflow process to be reproduced."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000100> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000100> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:04:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000100> <http://www.w3.org/2000/01/rdf-schema#comment> "Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000100> <http://www.w3.org/2000/01/rdf-schema#label> "reproducibility support"@en .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100> <http://purl.org/dc/elements/1.1/description> "Functions that enable a workflow process to be reproduced."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:04:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100> <http://www.w3.org/2000/01/rdf-schema#comment> "Typically reproducibility of a process or workflow requires that any input parameters, data, the sequence of steps, and the code used in the workflow be available and documented for re-use."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000100> <http://www.w3.org/2000/01/rdf-schema#label> "reproducibility support"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000101
+<http://cor.esipfed.org/ont/earthcube/SFO_0000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000101> <http://purl.org/dc/elements/1.1/description> "Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000101> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000101> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:10:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000101> <http://www.w3.org/2000/01/rdf-schema#label> "provenance management"@en .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101> <http://purl.org/dc/elements/1.1/description> "Functions that enable management of the provenance of 1) the definition of a workflow, 2) a workflow run, and 3) the data used or created by the workflow."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:10:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000101> <http://www.w3.org/2000/01/rdf-schema#label> "provenance management"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000102
+<http://cor.esipfed.org/ont/earthcube/SFO_0000102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000102> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000102> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000102> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:16:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000102> <http://www.w3.org/2000/01/rdf-schema#label> "workflow design"@en .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:16:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000102> <http://www.w3.org/2000/01/rdf-schema#label> "workflow design"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000103
+<http://cor.esipfed.org/ont/earthcube/SFO_0000103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000103> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000103> <http://purl.org/dc/elements/1.1/description> "Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000103> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000103> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:20:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000103> <http://www.w3.org/2000/01/rdf-schema#label> "workflow orchestration"@en .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103> <http://purl.org/dc/elements/1.1/description> "Functions that enable arrangement, coordination, and management of a complex series of processes that depend on one another for their proper functioning."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:20:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000103> <http://www.w3.org/2000/01/rdf-schema#label> "workflow orchestration"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000104
+<http://cor.esipfed.org/ont/earthcube/SFO_0000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000104> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000104> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:27:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000104> <http://www.w3.org/2000/01/rdf-schema#label> "workflow execution"@en .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000009> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:27:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000104> <http://www.w3.org/2000/01/rdf-schema#label> "workflow execution"@en .
-# 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000013> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105> <http://purl.org/dc/elements/1.1/description> "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:45:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105> <http://www.w3.org/2000/01/rdf-schema#label> "long-term archiving"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000105
+<http://cor.esipfed.org/ont/earthcube/SFO_0000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000105> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000013> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000105> <http://purl.org/dc/elements/1.1/description> "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000105> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000105> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:45:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000105> <http://www.w3.org/2000/01/rdf-schema#label> "long-term archiving"@en .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
-_:genid2 <http://www.w3.org/2002/07/owl#annotatedSource> <http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000105> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedSource> <http://cor.esipfed.org/ont/earthcube/SFO_0000105> .
 _:genid2 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/description> .
 _:genid2 <http://www.w3.org/2002/07/owl#annotatedTarget> "Functions that enable data to remain accessible and usable for a period of time long enough for there to be concern about the impacts of changing technologies, including support for new media and data formats, and of a changing Designated Community."@en .
 _:genid2 <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://public.ccsds.org/Pubs/650x0m2.pdf> .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000013> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:59:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000106> <http://www.w3.org/2000/01/rdf-schema#label> "backup"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000106
+<http://cor.esipfed.org/ont/earthcube/SFO_0000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000013> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000106> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000106> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T03:59:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000106> <http://www.w3.org/2000/01/rdf-schema#label> "backup"@en .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000013> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107> <http://purl.org/dc/elements/1.1/description> "Functions that enable the preservation of digital information, through transformation of the full information content from one form to another."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T04:00:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000107> <http://www.w3.org/2000/01/rdf-schema#label> "data migration"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000107
+<http://cor.esipfed.org/ont/earthcube/SFO_0000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000107> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000013> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000107> <http://purl.org/dc/elements/1.1/description> "Functions that enable the preservation of digital information, through transformation of the full information content from one form to another."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000107> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000107> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-16T04:00:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000107> <http://www.w3.org/2000/01/rdf-schema#label> "data migration"@en .
 # 
-# http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000003> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311> <http://purl.org/dc/elements/1.1/description> "Functions to create, update and remove user accounts and their rights and capabilities within a system."@en .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-01T23:21:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://cor.esipfed.org/ont/earthcube/sfo/SFO_0000311> <http://www.w3.org/2000/01/rdf-schema#label> "user management"@en .
+# http://cor.esipfed.org/ont/earthcube/SFO_0000310
+<http://cor.esipfed.org/ont/earthcube/SFO_0000310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000310> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000007> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000310> <http://purl.org/dc/elements/1.1/description> "Functions that transform the representation of the data."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000310> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000310> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-01T23:07:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000310> <http://www.w3.org/2000/01/rdf-schema#comment> "Examples: spatial transformation, format conversion, interpolation, regridding, etc."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000310> <http://www.w3.org/2000/01/rdf-schema#label> "data transformation"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/SFO_0000311
+<http://cor.esipfed.org/ont/earthcube/SFO_0000311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000311> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/SFO_0000003> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000311> <http://purl.org/dc/elements/1.1/description> "Functions to create, update and remove user accounts and their rights and capabilities within a system."@en .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000311> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000311> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-01T23:21:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/SFO_0000311> <http://www.w3.org/2000/01/rdf-schema#label> "user management"@en .
 # 
 # Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
